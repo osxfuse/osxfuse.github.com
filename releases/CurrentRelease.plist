@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rules</key>
+	<array>
+		<dict>
+			<key>Codebase</key>
+			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<key>Hash</key>
+			<string>F3lNWpYbNnb+Ouj1uQDThKAx+Ag=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>2239124</string>
+			<key>Version</key>
+			<string>2.3.0</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<key>Hash</key>
+			<string>F3lNWpYbNnb+Ouj1uQDThKAx+Ag=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>2239124</string>
+			<key>Version</key>
+			<string>2.3.0</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<key>Hash</key>
+			<string>F3lNWpYbNnb+Ouj1uQDThKAx+Ag=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.3.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>2239124</string>
+			<key>Version</key>
+			<string>2.3.0</string>
+		</dict>
+	</array>
+	<key>Signature</key>
+	<data>
+	UFYZq3zqph+tLVtl9Ai+t5Nnh7rmgyT0Xm0wFuIxjOcauGSNfHRggMUxBEdFGXW2ORwH
+	sDqmCGUBEE7irEEaRP5VY896ptMrJX/gCoAYBESYqgwtsVtYBWYAwqqLFdnfYACr0Ll6
+	NXWJ4jZF16hKQjZkkXzfJVJ/LAT5EkQtCOU=
+	</data>
+</dict>
+</plist>
