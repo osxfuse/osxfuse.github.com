@@ -8,50 +8,36 @@
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>AHbozvtexxzQE0sX1LOKcCHkt0k=</string>
+			<string>+Fk2q0fgdue7STF8ntrGvV7j6jA=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.1"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.2"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>2262073</string>
+			<string>3099731</string>
 			<key>Version</key>
-			<string>2.3.1</string>
+			<string>2.3.2</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>AHbozvtexxzQE0sX1LOKcCHkt0k=</string>
+			<string>+Fk2q0fgdue7STF8ntrGvV7j6jA=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.1"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.2"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>2262073</string>
+			<string>3099731</string>
 			<key>Version</key>
-			<string>2.3.1</string>
-		</dict>
-		<dict>
-			<key>Codebase</key>
-			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
-			<key>Hash</key>
-			<string>AHbozvtexxzQE0sX1LOKcCHkt0k=</string>
-			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.3.1"</string>
-			<key>ProductID</key>
-			<string>com.github.osxfuse.OSXFUSE</string>
-			<key>Size</key>
-			<string>2262073</string>
-			<key>Version</key>
-			<string>2.3.1</string>
+			<string>2.3.2</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	Ag9yAgBjtSWsxapu1VicRfgtt0eyEPNSOv+ZVrL+6rsU+61knb//3FYwzcavGb9tLx/q
-	RCnKl0WnLP5u7sBfSrhQG4Ddhomf+PA4eo5JjIF38AyJPrFNIciiSTarRjRU6ygEkNPi
-	BQ3lA4GNCS9d6E++c8iN3XcstKeAKx/jkdA=
+	mdQ8n66RVRvrnzw3QE9VqCbhHtZtiIu6TMNXZ9gJ/BIoHQbfpMohNUG9YHr2JOQSYpeY
+	+FSOQCCqDG+2eZAphJ98BMUmJC5mfMr2tAJuZySQl/bsz5nvy+lOfGlAmuMFbFYRxX0m
+	sP5rOtSPhkyEuLmt3kABJIETiTOKP/sSPww=
 	</data>
 </dict>
 </plist>
