@@ -8,36 +8,50 @@
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>+Fk2q0fgdue7STF8ntrGvV7j6jA=</string>
+			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>3099731</string>
+			<string>4865226</string>
 			<key>Version</key>
-			<string>2.3.2</string>
+			<string>2.3.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>+Fk2q0fgdue7STF8ntrGvV7j6jA=</string>
+			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>3099731</string>
+			<string>4865226</string>
 			<key>Version</key>
-			<string>2.3.2</string>
+			<string>2.3.3</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<key>Hash</key>
+			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.3.3"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>4865226</string>
+			<key>Version</key>
+			<string>2.3.3</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	mdQ8n66RVRvrnzw3QE9VqCbhHtZtiIu6TMNXZ9gJ/BIoHQbfpMohNUG9YHr2JOQSYpeY
-	+FSOQCCqDG+2eZAphJ98BMUmJC5mfMr2tAJuZySQl/bsz5nvy+lOfGlAmuMFbFYRxX0m
-	sP5rOtSPhkyEuLmt3kABJIETiTOKP/sSPww=
+	dVY9nCa3XluyFfvD8J6p5O54MMpTHyCM0ekkH5e+okn/QgaC90dnOaRYBhkGowBmIps3
+	6BipdrefIJdvF3i//XHUqMkwNxzrRLIqi+M8j5V+pKxZLCcjZ4Pm8KFDnuq1l9kqAlQF
+	zUjSPafwVx9umCKj+/+B3Oq+W/XNUw3QTW0=
 	</data>
 </dict>
 </plist>
