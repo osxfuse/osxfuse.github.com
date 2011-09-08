@@ -8,50 +8,50 @@
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
+			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.3.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>4865226</string>
+			<string>4833057</string>
 			<key>Version</key>
-			<string>2.3.3</string>
+			<string>2.3.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
+			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.3.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>4865226</string>
+			<string>4833057</string>
 			<key>Version</key>
-			<string>2.3.3</string>
+			<string>2.3.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
 			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
 			<key>Hash</key>
-			<string>Lm/FKsKNZrjzzjgfape0EU6/EoQ=</string>
+			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.3.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.3.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>4865226</string>
+			<string>4833057</string>
 			<key>Version</key>
-			<string>2.3.3</string>
+			<string>2.3.4</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	dVY9nCa3XluyFfvD8J6p5O54MMpTHyCM0ekkH5e+okn/QgaC90dnOaRYBhkGowBmIps3
-	6BipdrefIJdvF3i//XHUqMkwNxzrRLIqi+M8j5V+pKxZLCcjZ4Pm8KFDnuq1l9kqAlQF
-	zUjSPafwVx9umCKj+/+B3Oq+W/XNUw3QTW0=
+	PMe+3VjLCeAkTs7JO951+Qr2q8E1tGw5j4vZp/P7lvX1hOdkW0nfBOw6vWUyzvcVzvpa
+	3qQM/L8UKMTZ5ekOPCzHwWZf+NO+6civ6a9YnzlB9uhKuocQd4yu2icTpSK/4Vi70Rjf
+	UpTsCD353aJPiyVaQp2YvGb52beDOomD1Lw=
 	</data>
 </dict>
 </plist>
