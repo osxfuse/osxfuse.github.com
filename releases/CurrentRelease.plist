@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.3.4.dmg</string>
 			<key>Hash</key>
 			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
@@ -20,7 +20,7 @@
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.3.4.dmg</string>
 			<key>Hash</key>
 			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://osxfuse.github.com/releases/OSXFUSE-2.3.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.3.4.dmg</string>
 			<key>Hash</key>
 			<string>EFqPeqqVsPAgQJPfjWA1aH9zuxA=</string>
 			<key>Predicate</key>
@@ -49,9 +49,9 @@
 	</array>
 	<key>Signature</key>
 	<data>
-	PMe+3VjLCeAkTs7JO951+Qr2q8E1tGw5j4vZp/P7lvX1hOdkW0nfBOw6vWUyzvcVzvpa
-	3qQM/L8UKMTZ5ekOPCzHwWZf+NO+6civ6a9YnzlB9uhKuocQd4yu2icTpSK/4Vi70Rjf
-	UpTsCD353aJPiyVaQp2YvGb52beDOomD1Lw=
+	ill910sTV26/BXBYdNxRxgerfMfwSfpu9v/NxxXZ+wIrmNuNnFyznwlm+6skuw4pHL2I
+	ZuzgYBIRTE/mWu9Pw9WJV/GzPeQuLBp0Hitv0rc6lRcFZs9g02oD/q8H8QSAL/jdj/gw
+	kHnqcFia8UnjT/OW3MeL1LX/yGOzAk8ut1I=
 	</data>
 </dict>
 </plist>
