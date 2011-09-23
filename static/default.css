@@ -106,22 +106,9 @@ body {
     position: relative;
 
     font-family: 'Arial Black', Arial;
-    color: white;
-    text-shadow:
-        -1px -1px rgb(105,129,149),
-        -1px  1px rgb(105,129,149),
-         1px -1px rgb(105,129,149),
-         1px  1px rgb(105,129,149);
-}
-
-/* Webkit with CSS3 support */
-@media all and (-webkit-min-device-pixel-ratio: 0){
-    #heading .title {
-        text-shadow: none;
-
-        -webkit-text-stroke: 1px rgb(105,129,149);
-        -webkit-text-fill-color: white;
-    }
+    color: rgb(105,129,149);
+    -webkit-text-stroke: 1px rgb(105,129,149);
+    -webkit-text-fill-color: white;
 }
 
 #heading #title-fuse {
