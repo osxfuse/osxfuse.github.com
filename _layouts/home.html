@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{{ content }}
+<link rel="stylesheet" media="screen" type="text/css" href="/static/home.css" />
+<div id="sidebar">
+    <h2>Download</h2>
+    <a class="blob blob-download" href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
+        <img class="icon" src="/static/package.png" />
+        <div class="description">
+            OSXFUSE {{ page.current-release.version }}
+            {% for line in page.current-release.description %}
+                <br>{{ line }}
+            {% endfor %}
+        </div>
+    </a>
+    <h2>Recent Posts</h2>
+    {% for post in site.posts limit:10 %}
+        <a class="blob blob-news" href="{{ post.url }}">
+            <div class="date">{{ post.date | date_to_string }}</div>
+            <div class="title">{{ post.title }}</div>
+        </a>
+    {% endfor %}
+</div>

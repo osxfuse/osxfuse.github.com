@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    display: block;
+    z-index: 100;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+
+    border-bottom: 3px solid rgb(130,160,185);
+    background-color: rgb(64,64,64);
+
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 10pt;
+    font-weight: 200;
+}
+
+#header div {
+    display: block;
+
+    position: relative;
+    width: 800px;
+    height: 30px;
+
+    margin: auto;
+}
+
+#header .menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header .menu li {
+    display: inline-block;
+    line-height: 30px;
+}
+
+#header .menu a {
+    display: inline-block;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    color: white;
+
+    text-decoration: none;
+
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 250ms;
+}
+
+#header .menu a:hover {
+    background-color: #555555;
+}
+
+#header #menu-left {
+    position: absolute;
+    left: 0px;
+}
+
+#header #menu-right {
+    position: absolute;
+    right: 0px;
+}
+
+#top {
+    display: block;
+
+    margin: 0px;
+    margin-bottom:30px;
+
+    border-bottom: 1px solid #A0A0A0;
+    background-color: rgb(230,237,242);
+
+    padding: 0px;
+    padding-top: 33px;
+}
+
+#heading {
+    display: block;
+
+    position: relative;
+    width: 675px;
+	height:100px;
+
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    background-image: url('/static/osxfuse.png');
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    background-size: 90px;
+
+    padding-left: 125px;
+}
+
+#heading .title {
+    display: inline-block;
+    position: relative;
+
+    font-family: 'Arial Black', Arial;
+    color: white;
+    text-shadow:
+        -1px -1px rgb(105,129,149),
+        -1px  1px rgb(105,129,149),
+         1px -1px rgb(105,129,149),
+         1px  1px rgb(105,129,149);
+}
+
+/* Webkit with CSS3 support */
+@media all and (-webkit-min-device-pixel-ratio: 0){
+    #heading .title {
+        text-shadow: none;
+
+        -webkit-text-stroke: 1px rgb(105,129,149);
+        -webkit-text-fill-color: white;
+    }
+}
+
+#heading #title-fuse {
+    line-height: 60px;
+    font-size: 60px;
+}
+
+#heading #title-for {
+    left: -15px;
+
+    padding-left: 18px;
+
+    line-height: 28px;
+    font-size: 28px;
+
+    -webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+#heading #title-osx {
+    left: -30px;
+
+    line-height: 60px;
+    word-spacing: -15px;
+    font-size: 60px;
+}
+
+#heading #subtitle {
+    display: inline-block;
+
+    position: relative;
+    left: 4px;
+    top: -5px;
+
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(105,129,149);
+}
+
+#content {
+    display: block;
+
+    position: relative;
+    width: 800px;
+
+    margin: auto;
+    margin-bottom: 50px;
+
+    padding: 0px;
+
+    line-height: 1.4;
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 10pt;
+    font-weight: 300;
+    color: #202020;
+
+    text-align: justify;
+}
+
+#content h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(105,129,149);
+}
+
+#content * + h2 {
+    margin-top: 30px;
+}
+
+#content li + li {
+    margin-top: 10px;
+}
+
+#content a {
+    font-weight: 400;
+    color: rgb(70,90,155);
+
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: rgb(153,83,46);
+}
+
+#footer {
+    display: block;
+
+    height: 20px;
+
+    border-top: 1px solid #C0C0C0;
+}
+
+#footer div {
+    display: block;
+
+    position: relative;
+    width: 800px;
+
+    margin: auto;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 8pt;
+    font-weight: 400;
+    color: #A0A0A0;
+}
