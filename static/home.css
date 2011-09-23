@@ -81,7 +81,7 @@
     vertical-align: middle;
 }
 
-#sidebar .bloblist .blob-post .date {
+#sidebar .bloblist .blob-post .post-date {
     display: block;
 
     position: relative;
@@ -90,7 +90,7 @@
     color: #A0A0A0;
 }
 
-#sidebar .bloblist .blob-post .title {
+#sidebar .bloblist .blob-post .post-title {
     display: block;
 
     position: relative;

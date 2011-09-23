@@ -5,7 +5,7 @@ body {
 
 #header {
     display: block;
-    z-index: 100;
+    z-index: 1000;
 
     position: fixed;
     top: 0px;
@@ -103,25 +103,23 @@ body {
 
 #heading .title {
     display: inline-block;
+
     position: relative;
+    top: -10px;
 
     font-family: 'Arial Black', Arial;
     color: rgb(105,129,149);
-    -webkit-text-stroke: 1px rgb(105,129,149);
-    -webkit-text-fill-color: white;
 }
 
 #heading #title-fuse {
-    line-height: 60px;
     font-size: 60px;
 }
 
 #heading #title-for {
     left: -15px;
 
-    padding-left: 18px;
+    padding-left: 20px;
 
-    line-height: 28px;
     font-size: 28px;
 
     -webkit-transform: rotate(-90deg);
@@ -132,10 +130,9 @@ body {
 }
 
 #heading #title-osx {
-    left: -30px;
+    left: -20px;
 
-    line-height: 60px;
-    word-spacing: -15px;
+    word-spacing: -10px;
     font-size: 60px;
 }
 
@@ -144,7 +141,7 @@ body {
 
     position: relative;
     left: 4px;
-    top: -5px;
+    top: -30px;
 
     font-family: 'Helvetica Neue', Arial;
     font-size: 22px;
