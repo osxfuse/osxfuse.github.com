@@ -6,11 +6,11 @@ layout: default
 <div id="sidebar">
     <h2>Download</h2>
     <a class="blob blob-download" href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
-        <img class="icon" src="/static/package.png" />
+        <img class="icon" src="/static/package.png" alt="" />
         <div class="description">
             OSXFUSE {{ page.current-release.version }}
             {% for line in page.current-release.description %}
-                <br>{{ line }}
+                <br />{{ line }}
             {% endfor %}
         </div>
     </a>
