@@ -52,7 +52,7 @@
 }
 
 
-#sidebar .bloblist .blob-download .icon {
+#sidebar .bloblist .blob-download .download-icon {
     display: inline-block;
 
     position: relative;
@@ -71,20 +71,27 @@
     -webkit-transition-duration: 250ms;
 }
 
-#sidebar .bloblist .blob-download:hover .logo {
+#sidebar .bloblist .blob-download:hover .download-icon {
     opacity: 1;
 }
 
-#sidebar .bloblist .blob-download .description {
+#sidebar .bloblist .blob-download .download-description {
     display: inline-block;
 
     vertical-align: middle;
 }
 
+#sidebar .bloblist .blob-download .download-counter {
+    display: block;
+    
+    margin-top: 2px;
+    
+    font-size: 8pt;
+    color: #A0A0A0;
+}
+
 #sidebar .bloblist .blob-post .post-date {
     display: block;
-
-    position: relative;
 
     font-size: 8pt;
     color: #A0A0A0;
