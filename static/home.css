@@ -79,6 +79,16 @@
 }
 
 #sidebar .blob-news .date {
+    display: block;
+    
+    position: relative;
+    
     font-size: 8pt;
     color: #A0A0A0;
+}
+
+#sidebar .blob-news .title {
+    display: block;
+    
+    position: relative;
 }

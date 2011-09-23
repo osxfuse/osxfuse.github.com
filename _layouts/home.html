@@ -7,18 +7,18 @@ layout: default
     <h2>Download</h2>
     <a class="blob blob-download" href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
         <img class="icon" src="/static/package.png" alt="" />
-        <div class="description">
+        <span class="description">
             OSXFUSE {{ page.current-release.version }}
             {% for line in page.current-release.description %}
                 <br />{{ line }}
             {% endfor %}
-        </div>
+        </span>
     </a>
     <h2>Recent Posts</h2>
     {% for post in site.posts limit:10 %}
         <a class="blob blob-news" href="{{ post.url }}">
-            <div class="date">{{ post.date | date_to_string }}</div>
-            <div class="title">{{ post.title }}</div>
+            <span class="date">{{ post.date | date_to_string }}</span>
+            <span class="title">{{ post.title }}</span>
         </a>
     {% endfor %}
 </div>
