@@ -3,7 +3,7 @@
     padding-right: 290px;
 }
 
-#content #sidebar {
+#sidebar {
     display: block;
 
     position: absolute;
@@ -12,7 +12,12 @@
     width: 250px;
 }
 
-#sidebar .blob {
+#sidebar .bloblist {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar .bloblist .blob {
     display: block;
 
     padding: 5px;
@@ -25,31 +30,29 @@
     line-height: 1.4;
     font-family: 'Helvetica Neue', Arial;
     font-size: 10pt;
-    font-weight: 200;
-    color: #404040;
-
-    text-decoration: none;
 
     -webkit-transition-property: border-color, background-color;
     -webkit-transition-duration: 250ms;
 }
 
-#sidebar .blob:hover {
+#sidebar .bloblist .blob:hover {
     border-color: rgb(105,129,149);
     background-color: rgb(230,237,242);
+}
 
+#sidebar .bloblist .blob a, #sidebar .bloblist .blob:hover a {
     font-weight: 200;
     color: #404040;
 
     text-decoration: none;
 }
 
-#sidebar .blob + .blob {
+#sidebar .bloblist .blob + .blob {
     margin-top: 8px;
 }
 
 
-#sidebar .blob-download .icon {
+#sidebar .bloblist .blob-download .icon {
     display: inline-block;
 
     position: relative;
@@ -59,7 +62,7 @@
     padding-right: 10px;
 
     border: none;
-    
+
     vertical-align: middle;
 
     opacity: 0.8;
@@ -68,27 +71,27 @@
     -webkit-transition-duration: 250ms;
 }
 
-#sidebar .blob-download:hover .logo {
+#sidebar .bloblist .blob-download:hover .logo {
     opacity: 1;
 }
 
-#sidebar .blob-download .description {
+#sidebar .bloblist .blob-download .description {
     display: inline-block;
-    
+
     vertical-align: middle;
 }
 
-#sidebar .blob-news .date {
+#sidebar .bloblist .blob-post .date {
     display: block;
-    
+
     position: relative;
-    
+
     font-size: 8pt;
     color: #A0A0A0;
 }
 
-#sidebar .blob-news .title {
+#sidebar .bloblist .blob-post .title {
     display: block;
-    
+
     position: relative;
 }
