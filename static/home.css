@@ -20,8 +20,6 @@
 #sidebar .bloblist .blob {
     display: block;
 
-    padding: 5px;
-
     border-radius: 3px;
     border: 1px solid #C0C0C0;
 
@@ -38,6 +36,12 @@
 #sidebar .bloblist .blob:hover {
     border-color: rgb(105,129,149);
     background-color: rgb(230,237,242);
+}
+
+#sidebar .bloblist .blob a {
+    display: block;
+
+    padding: 5px;
 }
 
 #sidebar .bloblist .blob a, #sidebar .bloblist .blob:hover a {
