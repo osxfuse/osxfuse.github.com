@@ -1,8 +1,27 @@
 ---
-layout: default
+layout: post
 title: Release of OSXFUSE 2.3.0
 ---
-<h2>Release notes coming soon!</h2>
 <p>
-    More information about this release can be found <a href="https://groups.google.com/d/msg/osxfuse-group/3h7g4Q1Bq7E/WsWXsVl2_eIJ">here</a>.
+    This is the first public release of OSXFUSE, a successor to MacFUSE. OSXFUSE 2.3.0 is a beta release and may contain bugs.
+</p>
+<h3>Key Features</h3>
+<ul>
+    <li>OSXFUSE is based on Tuxera's unofficial MacFUSE 2.1.9 release, that has proven to be reasonably stable. MacFUSE 2.1.9 can be obtained from Tuxera.</li>
+    <li>Features a MacFUSE compatibility layer to support existing MacFUSE file systems without the need to recompile them. OSXFUSE can be a drop-in replacement for MacFUSE.</li>
+    <li>OSXFUSE supports Mac OS X 10.6 and 10.7 including full support for 64 bit kernels. Support for Mac OS X 10.5 (Intel/PowerPC) will be added in a future release.</li>
+    <li>OSXFUSE 2.3 follows a simple rule: If it is not broken, do not fix it. Besides rebranding as OSXFUSE and addition of the MacFUSE compatibility layer there have been few code changes.</li>
+</ul>
+<h3>Installing OSXFUSE</h3>
+<p>
+    The OSXFUSE installer offers the following choices/packages:
+</p>
+<ul>
+    <li>The package "OSXFUSE Core" includes the kernel extension, the user space C library <code>libosxfuse</code> and the Objective-C framework <code>OSXFUSE.framework</code>.</li>
+    <li>The package "OSXFUSE Preference Pane" installs the OSXFUSE Preference Pane, which is used to update OSXFUSE or uninstall it.</li>
+    <li>The "MacFUSE Compatibility Layer" provides support for file systems build for MacFUSE. If the MacFUSE compatibility layer is selected MacFUSE will be uninstalled automatically. MacFUSE file systems will not be removed.</li>
+</ul>
+<h3>Uninstalling OSXFUSE</h3>
+<p>
+    OSXFUSE can be uninstalled by pressing the "Remove OSXFUSE" button in the OSXFUSE Preference Pane. The Preference Pane itself will not be uninstalled by this step and has to be removed manually by secondary-clicking on "FUSE for OS X" in System Preferences and selecting "Remove FUSE for OS X Preference Pane".
 </p>

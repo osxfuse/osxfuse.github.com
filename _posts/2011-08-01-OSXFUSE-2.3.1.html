@@ -1,8 +1,18 @@
 ---
-layout: default
+layout: post
 title: Release of OSXFUSE 2.3.1
 ---
-<h2>Release notes coming soon!</h2>
-<p>
-    More information about this release can be found <a href="https://groups.google.com/d/msg/osxfuse-group/3h7g4Q1Bq7E/sJU-sauD1qUJ">here</a>.
-</p>
+<h3>New Features</h3>
+<ul>
+    <li>Enhanced MacFUSE compatibility mode to make OSXFUSE compatible with the latest TrueCrypt release.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+    <li>Fixed a bug in build script target <code>reload</code>.</li>
+    <li>Fixed a bug in <code>OSXFUSE.framework</code> that may have resulted in the selector <code>removeExtendedAttribute:ofItemAtPath:error:</code> never being called. Tracked as issue #2: <a href="https://github.com/osxfuse/osxfuse/issues/2">"removeExtendedAttribute never called"</a>. Reported and fixed by Dan Cooper.</li>
+    <li>Fixed bundle identifier of the OSXFUSE kernel extension.</li>
+</ul>
+<h3>Known Issues</h3>
+<ul>
+    <li>Many simultaneous file system operations on an OSXFUSE/MacFUSE volume may trigger a file system deadlock, that renders the file system being unresponsive and therefore being ejected. This bug affects solely Macs running a 64 bit kernel.</li>
+</ul>

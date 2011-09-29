@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<style type="text/css" scoped="scoped">
+    @import url('/static/sidebar.css') screen;
+    
+    #content h2:first-child + p.date {
+        color: #808080;
+    }
+</style>
+<div>
+    <h2>{{ page.title }}</h2>
+    <p class="date">Posted on {{ page.date | date_to_string }}</p>
+    {{ content }}
+</div>
+<div id="sidebar">
+    <h2>Related Posts</h2>
+    <ul class="bloblist">
+        {% for post in site.related_posts limit: 5 %}
+            <li class="blob">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                    <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
+                </a>
+            </li>
+        {% endfor %}
+        <li><a href="/archive.html">Post Archive</a></li>
+    </ul>
+</div>

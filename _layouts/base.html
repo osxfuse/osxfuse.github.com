@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" media="screen" type="text/css" href="/static/default.css" />
+        <meta charset="UTF-8">
+        <title>{{ page.title }} - OSXFUSE</title>
         <script type="text/javascript" src="/static/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="/static/jquery-fonteffect-1.0.0.min.js"></script>
-        <script type="text/javascript" src="/static/default.js"></script>
     </head>
     <body>
-        <div id="header">
+        <style type="text/css" scoped="scoped">
+            @import url('/static/base.css') screen;
+        </style>
+        <script type="text/javascript" src="/static/jquery.fonteffect-1.0.0.min.js"></script>
+        <script type="text/javascript" src="/static/base.js"></script>
+        <div id="menubar">
             <div>
                 <ul id="menu-left" class="menu">
                     <li><a href="/">Home</a></li><li><a href="https://github.com/osxfuse">GitHub</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Forum</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issue Tracker</a></li>
@@ -19,10 +21,10 @@
                 </ul>
             </div>
         </div>
-        <div id="top">
-            <h1 id="heading">
+        <div id="header">
+            <h1>
                 <span id="title-fuse" class="title">FUSE</span> <span id="title-for" class="title">for</span> <span id="title-osx" class="title">OS X</span>
-                <br />
+                <br>
                 <span id="subtitle">The easiest and fastest way to create file systems for Mac OS X</span>
             </h1>
         </div>
@@ -31,7 +33,8 @@
         </div>
         <div id="footer">
             <div>
-                &copy; 2011 Benjamin Fleischer<br />
+                &copy; 2011 Benjamin Fleischer
+                <br>
                 &copy; 2007-2009 Google Inc.
             </div>
         </div>

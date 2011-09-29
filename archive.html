@@ -1,0 +1,13 @@
+---
+layout: base
+title: Post Archive
+---
+<h2>Post Archive</h2>
+<ul id="postlist">
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <br>
+            <span>Posted on {{ post.date | date_to_string }}</span></li>
+    {% endfor %}  
+</ul>

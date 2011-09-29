@@ -1,8 +1,14 @@
 ---
-layout: default
+layout: post
 title: Release of OSXFUSE 2.3.2
 ---
-<h2>Release notes coming soon!</h2>
-<p>
-    More information about this release can be found <a href="https://groups.google.com/d/msg/osxfuse-group/3h7g4Q1Bq7E/dJmcOyr84PYJ">here</a>.
-</p>
+<h3>Fixes</h3>
+<ul>
+    <li>Fixed a permission issue regarding Finder in Mac OS X 10.7. Creating files on a OSXFUSE volume, that had not been mounted with option <code>allow_other</code>, failed due to a change in Finder. Tracked as issue #5: <a href="https://github.com/osxfuse/osxfuse/issues/5">"Finder permission problem"</a>. Fix suggested by Peter Stegemann</li>
+    <li>Fixed a bug in the OSXFUSE kernel extension, that could render a file system unresponsive and therefore being ejected after a timeout. This bug affected solely Macs running a 64 bit kernel and was triggered through many simultaneous file system operations. Tracked as issue #7: <a href="https://github.com/osxfuse/osxfuse/issues/7">"Deadlock in filesystem"</a>. Fix based on Anatol Pomozov's findings.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+    <li>Applied Tuxera's MacFUSE 2.2.0/1 patches.</li>
+    <li>Introduced "fat" distribution package containing different installation packages for Mac OS X 10.6 and 10.7.</li>
+</ul>

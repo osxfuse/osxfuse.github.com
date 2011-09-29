@@ -1,8 +1,14 @@
 ---
-layout: default
+layout: post
 title: Release of OSXFUSE 2.3.4
 ---
-<h2>Release notes coming soon!</h2>
-<p>
-    More information about this release can be found <a href="https://groups.google.com/d/msg/osxfuse-group/3h7g4Q1Bq7E/89oj03c0Yv4J">here</a>.
-</p>
+<h3>Fixes</h3>
+<ul>
+    <li>Fixed a bug that triggered a system-wide deadlock, if multiple MacFUSE volumes are mounted. This issue had been introduced in OSXFUSE 2.3.1 and affected solely MacFUSE file systems based on one of the user space C libraries, <code>libfuse</code> or <code>libfuse_ino64</code>. Objective-C file systems based on <code>MacFUSE.framework</code> did not trigger the deadlock. Tracked as issue #10: <a href="https://github.com/osxfuse/osxfuse/issues/10">"Deadlock when multiple MacFUSE file systems are mounted"</a>.</li>
+    <li>Fixed an issue that prevented the kernel extension from loading on Mac OS X 10.5 (PowerPC). This was caused by a bug in <code>llvm-gcc-4.2</code>. Tracked as issue #9: <a href="https://github.com/osxfuse/osxfuse/issues/9">"osxfusefs.kext does not load on OS X 10.5/ppc"</a>.</li>
+    <li>Fixed an issue that caused 64 bit PowerPC file systems to crash. This was caused by <code>llvm-gcc-4.2</code>.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+    <li>Switched to <code>gcc-4.2</code> as default compiler to address several compatibility issues with <code>llvm-gcc-4.2</code> on Mac OS X 10.5.</li>
+</ul>
