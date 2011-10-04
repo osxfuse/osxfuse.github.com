@@ -22,8 +22,18 @@ layout: base
     function addDownloadCounter(response) {
         $(function() {
             if ($("#currentrelease a:first-child").length > 0) {
-                var span = '<span class="metadata">' + response.data.download_count + ' times downloaded</span>';
-                $(span).appendTo("#currentrelease a:first-child");
+                var count = response.data.download_count;
+                if (typeof count == "number" && count % 1 == 0) {
+                    count = count.toString();
+
+                    var expression = /(\d+)(\d{3})/;
+                    while (expression.test(count)) {
+                        count = count.replace(expression, "$1" + "," + "$2");
+                    }
+
+                    var span = '<span class="metadata">' + count + ' times downloaded</span>';
+                    $(span).appendTo("#currentrelease a:first-child");
+                }
             }
         });
     }
