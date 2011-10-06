@@ -15,10 +15,15 @@ layout: base
     }
 
     #sidebar #currentrelease:hover a:first-child {
-        background-image: url('/static/package_hover.png');
+        background-image: url('/static/package-hover.png');
     }
 </style>
 <script type="text/javascript">
+    $(function() {
+        var preload = new Image();
+        preload.src = "/static/package-hover.png";
+    });
+
     function addDownloadCounter(response) {
         $(function() {
             if ($("#currentrelease a:first-child").length > 0) {
