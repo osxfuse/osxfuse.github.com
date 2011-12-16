@@ -3,31 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ page.title }} - OSXFUSE</title>
-        <script type="text/javascript" src="/static/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="/static/jquery-1.7.1.min.js"></script>
     </head>
     <body>
         <style type="text/css" scoped="scoped">
             @import url('/static/base.css') screen;
         </style>
-        <script type="text/javascript" src="/static/jquery.fonteffect-1.0.0.min.js"></script>
+        <script type="text/javascript" src="/static/jquery.snowfall-1.4.min.js"></script>
         <script type="text/javascript" src="/static/base.js"></script>
         <div id="menubar">
             <div>
                 <ul id="menu-left" class="menu">
-                    <li><a href="/">Home</a></li><li><a href="https://github.com/osxfuse">GitHub</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Forum</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issue Tracker</a></li>
+                    <li><a href="https://github.com/osxfuse">Project Home</a></li><li><a href="https://github.com/osxfuse/osxfuse/downloads">Downloads</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Forum</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issues</a></li>
                 </ul>
+                <!--
                 <ul id="menu-right" class="menu">
-                    <li><a href="https://github.com/osxfuse/osxfuse/downloads">All Downloads</a></li>
+                    <li><a href="https://github.com/osxfuse/osxfuse/downloads">Download Archive</a></li>
                 </ul>
+                 -->
             </div>
         </div>
-        <div id="header">
+        <a id="header" href="/">
             <h1>
-                <span id="title-fuse" class="title">FUSE</span> <span id="title-for" class="title">for</span> <span id="title-osx" class="title">OS X</span>
+                <span id="title">FUSE for Mac OS X</span>
                 <br>
                 <span id="subtitle">The easiest and fastest way to create file systems for Mac OS X</span>
             </h1>
-        </div>
+        </a>
         <div id="content">
             {{ content }}
         </div>

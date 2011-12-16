@@ -1,11 +1,7 @@
 $(function() {
-    if ($(".title").length > 0) {
-        $(".title").FontEffect({
-            outline: true,
-            outlineColor1: "#698195",
-            outlineColor2: "#698195",
-            outlineWeight: 1
-        });
-        $(".title").css("color", "white");
-    }
+    $("#header").snowfall({
+        flakeCount: 20,
+        minSpeed: 1,
+        maxSpeed: 2
+    });
 });

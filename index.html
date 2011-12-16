@@ -10,18 +10,20 @@ current-release:
     date: 2011-09-08
     download-id: 127726
 ---
-<h2>What is FUSE for OS X?</h2>
+<h2>What is FUSE for Mac OS X?</h2>
 <p>
     FUSE for OS X allows you to extend Mac OS X's native file handling capabilities via third-party file systems. OSXFUSE is a successor to <a href="http://code.google.com/p/macfuse/">MacFUSE</a>, which has been used as a software building block by dozens of products, but is no longer being maintained.
 </p>
+<h3>Features</h3>
 <p>
     As a user, installing the OSXFUSE software package will let you use any third-party file system written atop OSXFUSE or MacFUSE, if you choose to install the MacFUSE compatibility layer.
 </p>
 <p>
     As a developer, you can use the OSXFUSE SDK to write numerous types of new file systems as regular user space programs. The content of these file systems can come from anywhere: from the local disk, from across the network, from memory, or any other combination of sources. Writing a file system using OSXFUSE is orders of magnitude easier and quicker than the traditional approach of writing in-kernel file systems. Since OSXFUSE file systems are regular applications (as opposed to kernel extensions), you have just as much flexibility and choice in programming tools, debuggers, and libraries as you have if you were developing standard Mac OS X applications.
 </p>
+<h3>How It Works</h3>
 <p>
-    In more technical terms, OSXFUSE implements a mechanism that makes it possible to implement a fully functional file system in a user-space program on Mac OS X. It provides multiple APIs, one of which is a superset of the <a href="http://fuse.sourceforge.net/">FUSE (File system in USEr space)</a> API that originated on Linux. Therefore, many existing FUSE file systems become readily usable on Mac OS X.
+    In more technical terms, OSXFUSE implements a mechanism that makes it possible to implement a fully functional file system in a user-space program on Mac OS X. It provides multiple APIs, one of which is a superset of the <a href="http://fuse.sourceforge.net/">FUSE API</a> (file system in user space) that originated on Linux. Therefore, many existing FUSE file systems become readily usable on Mac OS X.
 </p>
 <p>
     The OSXFUSE software consists of a kernel extension and various user space libraries and tools. It comes with C-based and Objective-C-based SDKs. If you prefer another language (say, Python or Java), you should be able to create file systems in those languages after you install the relevant language bindings yourself.

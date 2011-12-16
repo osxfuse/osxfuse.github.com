@@ -5,36 +5,72 @@
     padding-left: 40px;
 }
 
+#sidebar h2 {
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-left: 10px;
+
+    background-color: #D3DEE8;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #4E575B;
+    font-weight: 100;
+    font-size: 13px;
+
+    border-top: 1px solid #C5D5DD;
+    border-left: 1px solid #C5D5DD;
+    border-right: 1px solid #C5D5DD;
+    border-bottom: none;
+}
+
+#sidebar h2 a.archive {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+
+    font-size: 11px;
+    color: #808E95;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#sidebar h2 a.archive:hover {
+    color: #697595;
+    text-decoration: none;
+}
+
 #sidebar ul.bloblist {
     margin: 0px;
     padding: 0px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #C5D5DD;
+    border-top: none;
 }
 
 #sidebar ul.bloblist li {
     display: block;
 
-    border-radius: 2px;
-    border: 1px solid #D0D0D0;
+    border-top: 1px solid #D0D0D0;
 
-    background-color: rgb(250,250,250);
+    line-height: 17px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
 
-    line-height: 1.4;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10pt;
-
-    -webkit-transition-property: border-color, background-color;
+    -webkit-transition-property: background-color;
     -webkit-transition-duration: 250ms;
 }
 
 #sidebar ul.bloblist li:hover {
-    border-color: rgb(105,129,149);
-    background-color: rgb(233,237,242);
+    background-color: #D3DEE8;
 }
 
 #sidebar ul.bloblist li a {
     display: block;
 
-    padding: 5px;
+    padding: 7px 10px 7px 10px;
 }
 
 #sidebar ul.bloblist li a, #sidebar ui.bloblist li:hover a {
@@ -44,15 +80,16 @@
     text-decoration: none;
 }
 
-#sidebar ul.bloblist li+ li{
-    margin-top: 10px;
+#sidebar ul.bloblist li + li{
+    margin-top: 0px;
 }
 
 #sidebar ul.bloblist li span.metadata {
     display: block;
 
-    margin-top: 5px;
+    margin-top: 4px;
 
+    line-height: 14px;
     font-size: 8pt;
     color: #808080;
 }

@@ -5,20 +5,16 @@ body {
 
 #menubar {
     display: block;
-    z-index: 1000;
 
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
     height: 30px;
 
-    border-bottom: 2px solid rgb(105,129,149);
-    background-color: rgb(64,64,64);
+    border-bottom: 1px solid #AAAAAA;
 
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10pt;
-    font-weight: 200;
+    background-color: #F0F0F0;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA), to(#EAEAEA));
+
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
 }
 
 #menubar > div {
@@ -34,11 +30,17 @@ body {
 #menubar ul.menu {
     margin: 0px;
     padding: 0px;
+
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #F8F8F8;
 }
 
 #menubar ul.menu li {
     display: inline-block;
     line-height: 30px;
+
+    border-left: 1px solid #F8F8F8;
+    border-right: 1px solid #E8E8E8;
 }
 
 #menubar ul.menu a {
@@ -47,16 +49,19 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 
-    color: white;
+    color: #202020;
 
     text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    font-family: helvetica, arial, sans-serif;
 
-    -webkit-transition-property: background-color;
+    -webkit-transition-property: color;
     -webkit-transition-duration: 250ms;
 }
 
 #menubar ul.menu a:hover {
-    background-color: #555555;
+    color: #698195;
 }
 
 #menubar #menu-left {
@@ -71,25 +76,30 @@ body {
 
 #header {
     display: block;
+    position: relative;
 
     margin: 0px;
-    margin-bottom:40px;
+    margin-bottom:30px;
 
-    border-bottom: 1px solid rgb(178,188,197);
-    box-shadow: 0px 4px 8px #A0A0A0;
-    background-color: rgb(233,237,242);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(209,216,224)), to(rgb(233,237,242)));
+    border: 1px solid #B3BAC2;
+    border-left: none;
+    border-right: none;
+
+    box-shadow: 0px 1px 4px #A0A0A0;
+    background-color: #6E87A0;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#95B1CB), to(#526881));
 
     padding: 0px;
-    padding-top: 32px;
+
+    text-decoration: none;
 }
 
 #header > h1 {
     display: block;
 
     position: relative;
-    width: 690px;
-	height:100px;
+    width: 720px;
+	height: 60px;
 
     margin: auto;
     margin-top: 15px;
@@ -97,58 +107,36 @@ body {
 
     background-image: url('/static/osxfuse.png');
     background-repeat: no-repeat;
-    background-position: 0px 5px;
-    background-size: 90px;
+    background-size: 60px;
 
-    padding-left: 110px;
+    padding-left: 80px;
 }
 
-#header > h1 span.title {
+#header > h1 #title {
     display: inline-block;
 
     position: relative;
-    top: -10px;
+    top: -5px;
 
-    font-family: 'Arial Black', Arial, sans-serif;
-    color: rgb(105,129,149);
-}
+    font-family: helvetica, arial, sans-serif;
+    font-size: 25px;
+    color: white;
 
-#header > h1 #title-fuse {
-    font-size: 60px;
-}
-
-#header > h1 #title-for {
-    left: -20px;
-
-    padding-left: 20px;
-
-    font-size: 28px;
-
-    -webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-}
-
-#header > h1 #title-osx {
-    left: -35px;
-
-    word-spacing: -10px;
-    font-size: 60px;
+    text-shadow: rgba(0, 0, 0, 0.7) 0px -1px 0px;
 }
 
 #header > h1 #subtitle {
     display: inline-block;
 
     position: relative;
-    left: 4px;
-    top: -30px;
+    top: -18px;
 
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    color: rgb(105,129,149);
+    font-family: helvetica, arial, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.699219) 0px -1px 0px;
+
+    font-size: 16px;
+    font-weight: 200;
+    color: white
 }
 
 #content {
@@ -158,43 +146,54 @@ body {
     width: 800px;
 
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
     padding: 0px;
 
-    line-height: 1.4;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10pt;
-    font-weight: 300;
-    color: #202020;
+    line-height: 17px;
+
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #484848;
 
     text-align: justify;
 }
 
 #content h2 {
-    margin-top: 0px;
-    margin-bottom: 15px;
+    position: relative;
 
-    font-size: 22px;
-    font-weight: 100;
-    color: rgb(105,129,149);
+    margin-bottom: 17px;
+
+    padding-bottom: 5px;
+
+    border-bottom: 1px solid #D0D0D0;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #303030;
 }
 
 #content * + h2 {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #content h3 {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    position: relative;
 
-    font-size: 18px;
-    font-weight: 100;
-    color: rgb(105,129,149);
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    color: #303030;
 }
 
 #content * + h3 {
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+#content p, #content ul {
+    margin-top: 5px;
 }
 
 #content ul {
@@ -206,33 +205,32 @@ body {
 }
 
 #content a {
-    font-weight: 400;
-    color: rgb(105,129,149);
+    color: #3C75AE;
 
     text-decoration: none;
 }
 
 #content a:hover {
-    color: rgb(68,88,109);
+    text-decoration: underline;
 }
 
 #content code, #content pre {
-    padding-top: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 1px;
+    padding: 0px 2px 0px 2px;
 
     border: 1px solid #D0D0D0;
-    border-radius: 2px;
-    background-color: rgb(250,250,250);
+    border-radius: 3px;
+    background-color: #F8F8F8;
 
-    font-family: 'Courier New', monospace;
+    font-family: 'courier new', monospace;
 }
 
 #footer {
     display: block;
 
+    background-color: #FAFAFA;
+
     border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
 }
 
 #footer div {
@@ -246,10 +244,9 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 
-    line-height: 12pt;
+    line-height: 16px;
 
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 8pt;
-    font-weight: 400;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 11px;
     color: #A0A0A0;
 }

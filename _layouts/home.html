@@ -13,17 +13,8 @@ layout: base
         background-repeat: no-repeat;
         background-position: 10px center;
     }
-
-    #sidebar #currentrelease:hover a:first-child {
-        background-image: url('/static/package-hover.png');
-    }
 </style>
 <script type="text/javascript">
-    $(function() {
-        var preload = new Image();
-        preload.src = "/static/package-hover.png";
-    });
-
     function addDownloadCounter(response) {
         $(function() {
             if ($("#currentrelease a:first-child").length > 0) {
@@ -36,7 +27,7 @@ layout: base
                         count = count.replace(expression, "$1" + "," + "$2");
                     }
 
-                    var span = '<span class="metadata">' + count + ' times downloaded</span>';
+                    var span = '<span class="metadata">Downloaded ' + count + ' times</span>';
                     $(span).appendTo("#currentrelease a:first-child");
                 }
             }
@@ -48,7 +39,10 @@ layout: base
     {{ content }}
 </div>
 <div id="sidebar">
-    <h2>Download</h2>
+    <h2>
+        Downloads
+        <a class="archive" href="https://github.com/osxfuse/osxfuse/downloads">Archive</a></span>
+    </h2>
     <ul class="bloblist">
         <li id="currentrelease">
             <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
@@ -61,9 +55,12 @@ layout: base
             </a>
         </li>
     </ul>
-    <h2>Recent Posts</h2>
+    <h2>
+        Recent Posts
+        <a class="archive" href="/archive.html">Archive</a></span>
+    </h2>
     <ul class="bloblist">
-        {% for post in site.posts limit: 5 %}
+        {% for post in site.posts limit: 8 %}
             <li>
                 <a href="{{ post.url }}">
                     {{ post.title }}
@@ -71,6 +68,6 @@ layout: base
                 </a>
             </li>
         {% endfor %}
-        <li><a href="/archive.html">Post Archive</a></li>
+        <!--<li><a href="/archive.html">Post Archive</a></li>-->
     </ul>
 </div>
