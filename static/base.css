@@ -64,16 +64,6 @@ body {
     color: #698195;
 }
 
-#menubar #menu-left {
-    position: absolute;
-    left: 0px;
-}
-
-#menubar #menu-right {
-    position: absolute;
-    right: 0px;
-}
-
 #header {
     display: block;
     position: relative;
