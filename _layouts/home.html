@@ -48,8 +48,7 @@ layout: base
             <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
                 OSXFUSE {{ page.current-release.version }}
                 {% for line in page.current-release.description %}
-                    <br>
-                    {{ line }}
+                    <span class="metadata">{{ line }}</span>
                 {% endfor %}
                 <span class="metadata">Released on {{ page.current-release.date | date_to_string }}</span>
             </a>
