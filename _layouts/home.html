@@ -4,6 +4,25 @@ layout: base
 <style type="text/css" scoped="scoped">
     @import url('/static/sidebar.css') screen;
 
+    #header h1 {
+        width: 575px;
+        min-height: 200px;
+
+        background-image: url('/static/osxfuse-home.png');
+        background-size: 200px;
+        background-position: left center;
+
+        padding-left: 225px;
+    }
+
+    #header h1 #title {
+        margin-top: 55px;
+    }
+
+    #header h1 #subtitle {
+        display: inline-block;
+    }
+
     #sidebar #currentrelease a:first-child {
         min-height: 60px;
 
@@ -67,6 +86,5 @@ layout: base
                 </a>
             </li>
         {% endfor %}
-        <!--<li><a href="/archive.html">Post Archive</a></li>-->
     </ul>
 </div>

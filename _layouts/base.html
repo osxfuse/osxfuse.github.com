@@ -2,35 +2,37 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{{ page.title }} - OSXFUSE</title>
+        <title>{{ page.title }} - FUSE for OS X</title>
         <script type="text/javascript" src="/static/jquery-1.7.1.min.js"></script>
     </head>
     <body>
         <style type="text/css" scoped="scoped">
             @import url('/static/base.css') screen;
         </style>
-        <div id="menubar">
-            <div>
-                <ul class="menu">
-                    <li><a href="/">Home</a></li><li><a href="https://github.com/osxfuse">Project on GitHub</a></li><li><a href="https://github.com/osxfuse/osxfuse/downloads">Downloads</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Forum</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issues</a></li>
-                </ul>
-            </div>
+        <div id="header">
+            <a href="/">
+                <h1>
+                    <span id="title">FUSE for OS X</span>
+                    <br>
+                    <span id="subtitle">The easiest and fastest way to create file systems for OS X</span>
+                </h1>
+            </a>
+            <ul id="menu">
+                <li><a href="https://github.com/osxfuse">Project on GitHub</a></li><li><a href="https://github.com/osxfuse/osxfuse/downloads">Downloads</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Google Group</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issue Tracker</a></li>
+            </ul>
         </div>
-        <a id="header" href="/">
-            <h1>
-                <span id="title">FUSE for OS X</span>
-                <br>
-                <span id="subtitle">The easiest and fastest way to create file systems for OS X</span>
-            </h1>
-        </a>
         <div id="content">
             {{ content }}
         </div>
         <div id="footer">
             <div>
-                &copy; 2011-2012 Benjamin Fleischer
-                <br>
-                &copy; 2007-2009 Google Inc.
+                <a href="https://raw.github.com/osxfuse/osxfuse/master/LICENSE.txt">OSXFUSE License</a>
+                <div id="copyright">
+                    &copy; 2011-2012 Benjamin Fleischer
+                    <br>
+                    &copy; 2007-2009 Google Inc.
+                </div>
+                Mac, Mac OS and OS X are trademarks of Apple Inc., registered in the U.S. and other countries. Other trademarks are the property of their respective owners.
             </div>
         </div>
     </body>
