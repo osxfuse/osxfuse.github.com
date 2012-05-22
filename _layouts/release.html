@@ -1,0 +1,31 @@
+---
+layout: post
+---
+<style type="text/css" scoped="scoped">
+    #release {
+        min-height: 60px;
+
+        margin-bottom: 25px;
+
+        padding-left: 75px;
+
+        background-image: url('/static/package.png');
+        background-repeat: no-repeat;
+        background-position: 0px center;
+    }
+
+    #release span.metadata {
+        display: block;
+
+        font-size: 11px;
+        color: #808080;
+    }
+</style>
+<p id="release">
+    <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.release.version }}.dmg">
+        Download OSXFUSE {{ page.release.version }}</a>
+    {% for line in page.release.description %}
+        <span class="metadata">{{ line }}</span>
+    {% endfor %}
+</p>
+{{ content }}

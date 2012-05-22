@@ -214,6 +214,10 @@ body {
     font-family: 'courier new', monospace;
 }
 
+#content .note {
+    font-style: italic;
+}
+
 #footer {
     display: block;
 

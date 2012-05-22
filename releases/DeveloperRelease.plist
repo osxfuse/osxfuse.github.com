@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rules</key>
+	<array>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.0.dmg</string>
+			<key>Hash</key>
+			<string>VA6ZlUJsjct7Jxi+X8fMtcGLiiM=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.4.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>6167920</string>
+			<key>Version</key>
+			<string>2.4.0</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.0.dmg</string>
+			<key>Hash</key>
+			<string>VA6ZlUJsjct7Jxi+X8fMtcGLiiM=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.4.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>6167920</string>
+			<key>Version</key>
+			<string>2.4.0</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.0.dmg</string>
+			<key>Hash</key>
+			<string>VA6ZlUJsjct7Jxi+X8fMtcGLiiM=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.4.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>6167920</string>
+			<key>Version</key>
+			<string>2.4.0</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.0.dmg</string>
+			<key>Hash</key>
+			<string>VA6ZlUJsjct7Jxi+X8fMtcGLiiM=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.4.0"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>6167920</string>
+			<key>Version</key>
+			<string>2.4.0</string>
+		</dict>
+	</array>
+	<key>Signature</key>
+	<data>
+	DEA98wADbjC9z3hMbDR6kr2re8FfWR9No79P+RRnfY35iOcg1NePpFkexauCEka1kNZD
+	jqCU/fLgV0M4IXSQGdj33FzmsSuOOtS48vt/bHOVo31s9ylXaSRTibP9VDh9hCtECcLa
+	xKuJqhBbOV4SGIBuAVvodHBFVNhX9RCTzmc=
+	</data>
+</dict>
+</plist>
