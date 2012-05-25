@@ -22,8 +22,8 @@ layout: post
     }
 </style>
 <p id="release">
-    <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.release.version }}.dmg">
-        Download OSXFUSE {{ page.release.version }}</a>
+    <a href="{{ page.release.url }}">
+        Download {{ page.release.name }}</a>
     {% for line in page.release.description %}
         <span class="metadata">{{ line }}</span>
     {% endfor %}

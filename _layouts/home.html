@@ -23,7 +23,7 @@ layout: base
         display: inline-block;
     }
 
-    #sidebar #currentrelease a:first-child {
+    #sidebar .release a:first-child {
         min-height: 60px;
 
         padding-left: 85px;
@@ -34,9 +34,9 @@ layout: base
     }
 </style>
 <script type="text/javascript">
-    function addDownloadCounter(response) {
+    function addDownloadCounter(package, response) {
         $(function() {
-            if ($("#currentrelease a:first-child").length > 0) {
+            if ($("#" + package + " a:first-child").length > 0) {
                 var count = response.data.download_count;
                 if (typeof count == "number" && count % 1 == 0) {
                     count = count.toString();
@@ -47,13 +47,22 @@ layout: base
                     }
 
                     var span = '<span class="metadata">Downloaded ' + count + ' times</span>';
-                    $(span).appendTo("#currentrelease a:first-child");
+                    $(span).appendTo("#" + package + " a:first-child");
                 }
             }
         });
     }
+
+    function osxfuseDownloadCounter(response) {
+        addDownloadCounter("osxfuse", response);
+    }
+
+    function sshfsDownloadCounter(response) {
+        addDownloadCounter("sshfs", response);
+    }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.current-release.download-id }}?callback=addDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse.download-id }}?callback=osxfuseDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.download-id }}?callback=sshfsDownloadCounter"></script>
 <div>
     {{ content }}
 </div>
@@ -63,13 +72,22 @@ layout: base
         <a class="archive" href="https://github.com/osxfuse/osxfuse/downloads">Archive</a></span>
     </h2>
     <ul class="bloblist">
-        <li id="currentrelease">
-            <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.current-release.version }}.dmg">
-                OSXFUSE {{ page.current-release.version }}
-                {% for line in page.current-release.description %}
+        <li class="release" id="osxfuse">
+            <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.osxfuse.version }}.dmg">
+                OSXFUSE {{ page.osxfuse.version }}
+                {% for line in page.osxfuse.description %}
                     <span class="metadata">{{ line }}</span>
                 {% endfor %}
-                <span class="metadata">Released on {{ page.current-release.date | date_to_string }}</span>
+                <span class="metadata">Released on {{ page.osxfuse.date | date_to_string }}</span>
+            </a>
+        </li>
+        <li class="release" id="sshfs">
+            <a href="https://github.com/downloads/osxfuse/sshfs/SSHFS-{{ page.sshfs.version }}.pkg">
+                SSHFS {{ page.sshfs.version }}
+                {% for line in page.sshfs.description %}
+                    <span class="metadata">{{ line }}</span>
+                {% endfor %}
+                <span class="metadata">Released on {{ page.sshfs.date | date_to_string }}</span>
             </a>
         </li>
     </ul>
