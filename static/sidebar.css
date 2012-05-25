@@ -12,12 +12,12 @@
 
     background-color: #D3DEE8;
 
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     color: #4E575B;
     font-weight: 100;
     font-size: 13px;
 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-top: 1px solid #C5D5DD;
     border-left: 1px solid #C5D5DD;
     border-right: 1px solid #C5D5DD;
@@ -27,17 +27,12 @@
 #sidebar h2 a.archive {
     position: absolute;
     right: 10px;
-    bottom: 5px;
 
-    font-size: 11px;
-    color: #808E95;
-    font-weight: bold;
-    text-decoration: none;
+    color: #4E575B;
 }
 
 #sidebar h2 a.archive:hover {
-    color: #697595;
-    text-decoration: none;
+    #color: #697595;
 }
 
 #sidebar ul.bloblist {
