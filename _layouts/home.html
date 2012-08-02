@@ -60,9 +60,16 @@ layout: base
     function sshfsDownloadCounter(response) {
         addDownloadCounter("sshfs", response);
     }
+
+    function osxfuseDeveloperDownloadCounter(response) {
+        addDownloadCounter("osxfuse-developer", response);
+    }
 </script>
 <script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse.download-id }}?callback=osxfuseDownloadCounter"></script>
 <script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.download-id }}?callback=sshfsDownloadCounter"></script>
+{% if page.osxfuse-developer %}
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse-developer.download-id }}?callback=osxfuseDeveloperDownloadCounter"></script>
+{% endif %}
 <div>
     {{ content }}
 </div>
@@ -73,7 +80,7 @@ layout: base
             <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.osxfuse.version }}.dmg">
                 OSXFUSE {{ page.osxfuse.version }}
                 {% for line in page.osxfuse.description %}
-                    <span class="metadata">{{ line }}</span>
+                <span class="metadata">{{ line }}</span>
                 {% endfor %}
                 <span class="metadata">Released on {{ page.osxfuse.date | date_to_string }}</span>
             </a>
@@ -82,24 +89,38 @@ layout: base
             <a href="https://github.com/downloads/osxfuse/sshfs/SSHFS-{{ page.sshfs.version }}.pkg">
                 SSHFS {{ page.sshfs.version }}
                 {% for line in page.sshfs.description %}
-                    <span class="metadata">{{ line }}</span>
+                <span class="metadata">{{ line }}</span>
                 {% endfor %}
                 <span class="metadata">Released on {{ page.sshfs.date | date_to_string }}</span>
             </a>
         </li>
     </ul>
+    {% if page.osxfuse-developer %}
+    <h2>Developer Previews</h2>
+    <ul class="bloblist">
+        <li class="release" id="osxfuse-developer">
+            <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.osxfuse-developer.version }}.dmg">
+                OSXFUSE {{ page.osxfuse-developer.version }}
+                {% for line in page.osxfuse-developer.description %}
+                <span class="metadata">{{ line }}</span>
+                {% endfor %}
+                <span class="metadata">Released on {{ page.osxfuse-developer.date | date_to_string }}</span>
+            </a>
+        </li>
+    </ul>
+    {% endif %}
     <h2>
         Recent Posts
         <a class="archive" href="/archive.html">Archive</a></span>
     </h2>
     <ul class="bloblist">
         {% for post in site.posts limit: 8 %}
-            <li>
-                <a href="{{ post.url }}">
-                    {{ post.title }}
-                    <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
-                </a>
-            </li>
+        <li>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+                <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
+            </a>
+        </li>
         {% endfor %}
     </ul>
 </div>
