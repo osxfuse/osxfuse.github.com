@@ -7,14 +7,18 @@
 
 #sidebar h2 {
     margin-bottom: 0px;
-    padding: 5px;
+    padding-top: 5px;
     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
 
     background-color: #D3DEE8;
 
     color: #4E575B;
     font-weight: 100;
     font-size: 13px;
+
+    text-shadow: 0px 0px 2px #F0F0F0;
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -29,6 +33,8 @@
     right: 10px;
 
     color: #4E575B;
+
+    text-shadow: 0px 0px 2px #FFFFFF;
 }
 
 #sidebar h2 a.archive:hover {
@@ -48,7 +54,7 @@
 #sidebar ul.bloblist li {
     display: block;
 
-    border-top: 1px solid #D0D0D0;
+    border-top: 1px solid #C5D5DD;
 
     line-height: 17px;
     font-family: helvetica, arial, sans-serif;

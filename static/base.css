@@ -17,7 +17,7 @@ body {
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#526881), to(#95B1CB));
 
     padding: 0px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -33,7 +33,7 @@ body {
 	min-height: 60px;
 
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     background-image: url('/static/osxfuse.png');
     background-repeat: no-repeat;
@@ -53,18 +53,18 @@ body {
     font-weight: 400;
     color: #FFFFFF;
 
-    text-shadow: rgba(0, 0, 0, 0.7) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2px;
 }
 
 #header h1 #subtitle {
     display: none;
 
     font-family: helvetica, arial, sans-serif;
-    text-shadow: rgba(0, 0, 0, 0.7) 0px -1px 0px;
-
     font-size: 18px;
     font-weight: 200;
     color: #FFFFFF;
+
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2px;
 }
 
 #menu {
@@ -74,6 +74,7 @@ body {
     height: 25px;
 
     margin: auto;
+    padding: 0px;
 
     font-family: helvetica, arial, sans-serif;
     font-size: 13px;
@@ -99,9 +100,9 @@ body {
     background-color: #7288A1;
 
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 200;
     font-family: helvetica, arial, sans-serif;
-    color: #D3DEE8;
+    color: #E3EEF8;
 
     -webkit-transition-property: color, border;
     -webkit-transition-duration: 250ms;
@@ -126,7 +127,7 @@ body {
     border-left: none;
     border-right: none;
 
-    line-height: 17px;
+    line-height: 20px;
 
     font-family: helvetica, arial, sans-serif;
     font-size: 13px;
