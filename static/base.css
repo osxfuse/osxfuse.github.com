@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background-color: #F7F8FF;
+    background-color: #FFFFFF;
 }
 
 #header {
@@ -10,7 +10,7 @@ body {
     position: relative;
 
     margin: 0px;
-    margin-bottom:25px;
+    margin-bottom:40px;
 
     box-shadow: 0px 5px 10px #A0A0A0;
     background-color: #6E87A0;
@@ -119,18 +119,12 @@ body {
     width: 800px;
 
     margin: auto;
-    margin-bottom: 25px;
-
-    padding: 20px;
+    margin-bottom: 30px;
 
     border: 1px solid #B3BAC2;
     border: none;
     border-left: none;
     border-right: none;
-
-    box-shadow: 0px 5px 10px #A0A0A0;
-
-    background-color: #FFFFFF;
 
     line-height: 17px;
 
@@ -214,7 +208,7 @@ body {
 #footer {
     display: block;
 
-    background-color: #FAFAFA;
+    background-color: #F7F8FF;
 
     border-top: 1px solid #C0C0C0;
     border-bottom: 1px solid #C0C0C0;
