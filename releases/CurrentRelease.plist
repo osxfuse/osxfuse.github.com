@@ -6,17 +6,17 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.0.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg</string>
 			<key>Hash</key>
-			<string>NcNL+MU50PkCBu7PGFe5p1VG5oM=</string>
+			<string>oEmFjvcbdQ6nc8KaB7/HLE5I11E=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.5.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.5.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6172335</string>
+			<string>6172574</string>
 			<key>Version</key>
-			<string>2.5.0</string>
+			<string>2.5.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
@@ -63,9 +63,9 @@
 	</array>
 	<key>Signature</key>
 	<data>
-	BQekaj9Z6vhhcIfGHtIJwhiCujTD0QA+++3wgJoj5jdQhM/ruv3oJ7//TCMnnfNbY6TC
-	TdaXZlImaZ+6SKsNMbbI76JDaLzft5XCYbTu/I1gGF9+oVsReOxOGYY3TT2wAwpb/kei
-	Vc/MMKviV4i6ay16ooatGcbGL/+W7AP78tw=
+	i1qKUGHGxsBew1UqVoR6Cwf5Lzt9Pe22sbgZQn//o53ud0EBdIEMMYWOJaad89vubXJ7
+	bz91G6hT7PN5s8hNApmW9rlRHz3GaracLMP8ncHdc8dOFF1Nkyr3w2GYr9kYCMIg9tMk
+	pwgSYTcc8g+L8mn1ppJAP7X+w3t0ZDWL8H4=
 	</data>
 </dict>
 </plist>
