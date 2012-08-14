@@ -20,52 +20,52 @@
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.2.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg</string>
 			<key>Hash</key>
-			<string>NJk8GZ7Ap27gTRuuOWiXNZ2NYWs=</string>
+			<string>oEmFjvcbdQ6nc8KaB7/HLE5I11E=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.4.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.5.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6168342</string>
+			<string>6172574</string>
 			<key>Version</key>
-			<string>2.4.2</string>
+			<string>2.5.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.2.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg</string>
 			<key>Hash</key>
-			<string>NJk8GZ7Ap27gTRuuOWiXNZ2NYWs=</string>
+			<string>oEmFjvcbdQ6nc8KaB7/HLE5I11E=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.4.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.5.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6168342</string>
+			<string>6172574</string>
 			<key>Version</key>
-			<string>2.4.2</string>
+			<string>2.5.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.2.dmg</string>
+			<string>https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg</string>
 			<key>Hash</key>
-			<string>NJk8GZ7Ap27gTRuuOWiXNZ2NYWs=</string>
+			<string>oEmFjvcbdQ6nc8KaB7/HLE5I11E=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.4.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.5.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6168342</string>
+			<string>6172574</string>
 			<key>Version</key>
-			<string>2.4.2</string>
+			<string>2.5.1</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	i1qKUGHGxsBew1UqVoR6Cwf5Lzt9Pe22sbgZQn//o53ud0EBdIEMMYWOJaad89vubXJ7
-	bz91G6hT7PN5s8hNApmW9rlRHz3GaracLMP8ncHdc8dOFF1Nkyr3w2GYr9kYCMIg9tMk
-	pwgSYTcc8g+L8mn1ppJAP7X+w3t0ZDWL8H4=
+	XztIaxINXzV5mSsxbX0dX/F3W6TChKzGDjCXcv0tddE3GrnX0sWBjXzsm/tizee7kLLi
+	LUE/F9QjWQHy1K4aWiL2gY6mIbGsgODbWd6UIXCYj+I7LO6YJvFAB4uhcjzGdXSEWJka
+	yyUsCR/B8fZMKlnb39JPyc9T/7qq7fSxj2E=
 	</data>
 </dict>
 </plist>
