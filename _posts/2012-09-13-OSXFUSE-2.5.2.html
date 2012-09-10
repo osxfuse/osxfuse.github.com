@@ -1,0 +1,27 @@
+---
+layout: release
+title: Release of OSXFUSE 2.5.2
+
+release:
+    name: OSXFUSE 2.5.2
+    description: 
+        - Mac OS X 10.5 or later
+        - Intel or PowerPC
+        - "SHA1: 274907901af8cc290c95b5959a05ae429aa6e7e9"
+    url: https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.2.dmg
+---
+<p class="note">
+    This is a developer preview of the OSXFUSE software. It will become the new stable release on 20 Sep 2012 unless critical bugs are found.
+</p>
+<h3>Fixes</h3>
+<ul>
+    <li>Fixed an issue, that can trigger a kernel panic in case decrementing the iocount of a vnode results in the vnode being reclaimed. Reported by Daniel Iwan: <a href="https://groups.google.com/d/topic/osxfuse-group/EDUQLeOxfNg/discussion">"Panic on Lion with OSXFUSE 2.5.1"</a></li>
+    <li>Fixed a bug, that can cause reading from a FUSE device to block although system call <code>select</code> signaled that the read would be non-blocking.</li>
+    <li>Addressed an issue, that can trigger a segmentation fault in the user space file system process when unmounting a FUSE volume. No further messages are sent to the server after the session has been destroyed by sending message <code>FUSE_DESTROY</code>.</li>
+    <li>Unmounting a FUSE volume does no longer signal <code>VQ_DEAD</code>, which should only be signaled in case the file system died unexpectedly.</li>
+    <li>Fix a bug in file system operation <code>SETATTR</code>, that resulted in a file's type not being passed to the FUSE server. Patch by Anatol Pomozov.</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+    <li>Various code improvements resulting in cleaner code. Most of these patches were authored by Anatol Pomozov.</li>
+</ul>
