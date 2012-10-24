@@ -16,7 +16,7 @@ release:
     <li>Fixed a bug, that can cause reading from a FUSE device to block although system call <code>select</code> signaled that the read would be non-blocking.</li>
     <li>Addressed an issue, that can trigger a segmentation fault in the user space file system process when unmounting a FUSE volume. No further messages are sent to the server after the session has been destroyed by sending message <code>FUSE_DESTROY</code>.</li>
     <li>Unmounting a FUSE volume does no longer signal <code>VQ_DEAD</code>, which should only be signaled in case the file system died unexpectedly.</li>
-    <li>Fix a bug in file system operation <code>SETATTR</code>, that resulted in a file's type not being passed to the FUSE server. Patch by Anatol Pomozov.</li>
+    <li>Fixed a bug in file system operation <code>SETATTR</code>, that resulted in a file's type not being passed to the FUSE server. Patch by Anatol Pomozov.</li>
 </ul>
 <h3>Changes</h3>
 <ul>
