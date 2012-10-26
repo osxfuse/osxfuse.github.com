@@ -1,14 +1,14 @@
 ---
 layout: release
-title: Release of OSXFUSE 2.5.3
+title: Release of OSXFUSE 2.5.4
 
 release:
-    name: OSXFUSE 2.5.3
+    name: OSXFUSE 2.5.4
     description: 
         - Mac OS X 10.5 or later
         - Intel or PowerPC
-        - "SHA1: 0099a95c52a24f24324764da949f9ff7c0edf929"
-    url: https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.3.dmg
+        - "SHA1: 2498408fdeab96c7d50d2a2bb83ff4c5e73ae0a7"
+    url: https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.4.dmg
 ---
 <p class="note">
     This is a developer preview of the OSXFUSE software. It will supersede version 2.5.2 as the new stable release on 02 Nov 2012 unless critical bugs are reported.
@@ -27,5 +27,5 @@ release:
     <li>Fixed a bug, that prevents file nodes from being freed by the FUSE server when the corresponding vnodes are being reclaimed by OS X. This could result in higher than normal memory usage in case a great number of files is being created on a FUSE volume.</li>
     <li>Addressed an issue, that can trigger an "unknown option" error when using mount time option <code>volicon</code> in combination with option <code>modules</code></li>
     <li>Fixed a bug in detecting whether a custom volume icon has been specified when mounting a FUSE file system through <code>OSXFUSE.framework</code>. In some cases this issue prevented file systems from mounting.</li>
-    <li>Fixed a bug, that can trigger a kernel panic on Mac OS X 10.5 (PowerPC) when entering a vnode into the name cache or purging it from the cache.</li>
+    <li>Fixed a bug, that can trigger a kernel panic on OS X when entering a vnode into the name cache or purging it from the cache.</li>
 </ul>
