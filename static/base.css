@@ -206,16 +206,11 @@ body {
     font-style: italic;
 }
 
-#footer {
+.footer {
     display: block;
-
-    background-color: #F7F8FF;
-
-    border-top: 1px solid #C0C0C0;
-    border-bottom: 1px solid #C0C0C0;
 }
 
-#footer div {
+.footer div {
     display: block;
 
     position: relative;
@@ -233,16 +228,47 @@ body {
     color: #A0A0A0;
 }
 
-#footer a {
-    color: #3C75AE;
+.footer a {
+    color: #A0A0A0;
 
     text-decoration: none;
 }
 
-#footer a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 
-#footer #copyright {
-    margin-top: 0px;
+#sponsors {
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+
+    background-color: #F8F8F8;
+}
+
+#sponsors h2 {
+    margin: 0px;
+    margin-bottom: 10px;
+
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #787878;
+}
+
+#sponsors a {
+    display: inline-block;
+
+    margin-bottom: 5px;
+}
+
+#sponsors a + a {
+    margin-left: 10px;
+}
+
+#sponsors a img {
+    height: 30px;
+}
+
+#legal {
+    margin-top: 5px;
 }
