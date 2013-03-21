@@ -60,16 +60,9 @@ layout: base
     function sshfsDownloadCounter(response) {
         addDownloadCounter("sshfs", response);
     }
-
-    function osxfuseDeveloperDownloadCounter(response) {
-        addDownloadCounter("osxfuse-developer", response);
-    }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse.download-id }}?callback=osxfuseDownloadCounter"></script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.download-id }}?callback=sshfsDownloadCounter"></script>
-{% if page.osxfuse-developer %}
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse-developer.download-id }}?callback=osxfuseDeveloperDownloadCounter"></script>
-{% endif %}
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse.gh_download_id }}?callback=osxfuseDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.gh_download_id }}?callback=sshfsDownloadCounter"></script>
 <div>
     {{ content }}
 </div>
@@ -77,7 +70,7 @@ layout: base
     <h2>Stable Releases</h2>
     <ul class="bloblist">
         <li class="release" id="osxfuse">
-            <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.osxfuse.version }}.dmg">
+            <a href="{{ page.osxfuse.url }}">
                 OSXFUSE {{ page.osxfuse.version }}
                 {% for line in page.osxfuse.description %}
                 <span class="metadata">{{ line }}</span>
@@ -86,7 +79,7 @@ layout: base
             </a>
         </li>
         <li class="release" id="sshfs">
-            <a href="https://github.com/downloads/osxfuse/sshfs/SSHFS-{{ page.sshfs.version }}.pkg">
+            <a href="{{ page.sshfs.url }}">
                 SSHFS {{ page.sshfs.version }}
                 {% for line in page.sshfs.description %}
                 <span class="metadata">{{ line }}</span>
@@ -99,7 +92,7 @@ layout: base
     <h2>Developer Previews</h2>
     <ul class="bloblist">
         <li class="release" id="osxfuse-developer">
-            <a href="https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-{{ page.osxfuse-developer.version }}.dmg">
+            <a href="{{ page.osxfuse-developer.url }}">
                 OSXFUSE {{ page.osxfuse-developer.version }}
                 {% for line in page.osxfuse-developer.description %}
                 <span class="metadata">{{ line }}</span>
