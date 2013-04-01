@@ -53,15 +53,10 @@ layout: base
         });
     }
 
-    function osxfuseDownloadCounter(response) {
-        addDownloadCounter("osxfuse", response);
-    }
-
     function sshfsDownloadCounter(response) {
         addDownloadCounter("sshfs", response);
     }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/downloads/{{ page.osxfuse.gh_download_id }}?callback=osxfuseDownloadCounter"></script>
 <script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.gh_download_id }}?callback=sshfsDownloadCounter"></script>
 <div>
     {{ content }}
