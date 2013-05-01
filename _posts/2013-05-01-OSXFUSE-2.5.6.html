@@ -1,0 +1,24 @@
+---
+layout: release
+title: Release of OSXFUSE 2.5.6
+
+release:
+    name: OSXFUSE 2.5.6
+    description: 
+        - Mac OS X 10.5 or later
+        - Intel or PowerPC
+        - "SHA1: 2023f87492a1087846a5b15b9b9cdde79ea55b9e"
+    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.5.6/osxfuse-2.5.6.dmg/download
+---
+<h3>New Features</h3>
+<ul>
+    <li>Added support for fcntl <code>F_FULLFSYNC</code>. See issue #79: <a href="https://github.com/osxfuse/osxfuse/issues/79">"Calling fcntl(..., F_FULLFSYNC) on osxfuse volume returns "Invalid argument" error"</a></li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+    <li>Addressed an issue, that could in rare cases lead to a file system deadlock and cause a kernel panic when using mount-time option <code>nosyncwrites</code>. The issue could be triggered by flushing the kernel's file cache.</li>
+    <li>Fixed a bug, that could trigger a kernel panic when creating a new file on a distributed file system failed. Only FUSE file system implementing the <code>FUSE_CREATE</code> call were affected by this issue. Tracked as issue #84: <a fref="https://github.com/osxfuse/osxfuse/issues/84">"kernel panic related to fuse_ipc.h"</a></li>
+    <li>Plugged a memory leak, that occurred when looking up a file or directory fails because it does not exist. The issue is fixed by properly releasing the otherwise leaked ticket in <code>fuse_vnop_lookup</code>.</li>
+    <li>Plugged a memory leak, that occurred when setting an extended attribute failed because of its size. The leak was caused by not releasing the ticket in case <code>fdisp_make_vp_canfail</code> failed.</li>
+    <li>Fixed a race condition, that could in rare cases trigger a "Data access" kernel panic when writing to a file.</li>
+</ul>
