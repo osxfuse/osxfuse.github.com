@@ -70,7 +70,7 @@ layout: base
                 {% for line in page.osxfuse.description %}
                 <span class="metadata">{{ line }}</span>
                 {% endfor %}
-                <span class="metadata">Released on {{ page.osxfuse.date | date_to_string }}</span>
+                <span class="metadata">Released on {{ page.osxfuse.date }}</span>
             </a>
         </li>
         <li class="release" id="sshfs">
@@ -79,7 +79,7 @@ layout: base
                 {% for line in page.sshfs.description %}
                 <span class="metadata">{{ line }}</span>
                 {% endfor %}
-                <span class="metadata">Released on {{ page.sshfs.date | date_to_string }}</span>
+                <span class="metadata">Released on {{ page.sshfs.date }}</span>
             </a>
         </li>
     </ul>
@@ -92,7 +92,7 @@ layout: base
                 {% for line in page.osxfuse-developer.description %}
                 <span class="metadata">{{ line }}</span>
                 {% endfor %}
-                <span class="metadata">Released on {{ page.osxfuse-developer.date | date_to_string }}</span>
+                <span class="metadata">Released on {{ page.osxfuse-developer.date }}</span>
             </a>
         </li>
     </ul>
