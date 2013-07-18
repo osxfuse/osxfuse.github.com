@@ -115,6 +115,7 @@ body {
 
 #content {
     display: table;
+    table-layout: fixed;
 
     position: relative;
     width: 800px;
@@ -192,9 +193,17 @@ body {
     text-decoration: underline;
 }
 
-#content code, #content pre {
+#content code {
     padding: 0px 2px 0px 2px;
+}
 
+#content pre {
+    overflow-x: scroll;
+
+    padding: 4px;
+}
+
+#content code, #content pre {
     border: 1px solid #D0D0D0;
     border-radius: 3px;
     background-color: #F8F8F8;
