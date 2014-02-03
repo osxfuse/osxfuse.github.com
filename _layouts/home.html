@@ -57,7 +57,7 @@ layout: base
         addDownloadCounter("sshfs", response);
     }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/downloads/{{ page.sshfs.gh_download_id }}?callback=sshfsDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/releases/assets/{{ page.sshfs.gh_asset_id }}?callback=sshfsDownloadCounter"></script>
 <div>
     {{ content }}
 </div>
