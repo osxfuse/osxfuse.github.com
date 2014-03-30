@@ -6,80 +6,80 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.2/osxfuse-2.6.2.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.3/osxfuse-2.6.3.dmg/download</string>
 			<key>Hash</key>
-			<string>RGljSMz7ENPmplFNc/CQ22tp7gU=</string>
+			<string>wAfgvKCMaBYzI7MtstpIt56h1pY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "2.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "2.6.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8815021</string>
+			<string>8810613</string>
 			<key>Version</key>
-			<string>2.6.2</string>
+			<string>2.6.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.2/osxfuse-2.6.2.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.3/osxfuse-2.6.3.dmg/download</string>
 			<key>Hash</key>
-			<string>RGljSMz7ENPmplFNc/CQ22tp7gU=</string>
+			<string>wAfgvKCMaBYzI7MtstpIt56h1pY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.6.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8815021</string>
+			<string>8810613</string>
 			<key>Version</key>
-			<string>2.6.2</string>
+			<string>2.6.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.2/osxfuse-2.6.2.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.3/osxfuse-2.6.3.dmg/download</string>
 			<key>Hash</key>
-			<string>RGljSMz7ENPmplFNc/CQ22tp7gU=</string>
+			<string>wAfgvKCMaBYzI7MtstpIt56h1pY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.6.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8815021</string>
+			<string>8810613</string>
 			<key>Version</key>
-			<string>2.6.2</string>
+			<string>2.6.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.2/osxfuse-2.6.2.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.3/osxfuse-2.6.3.dmg/download</string>
 			<key>Hash</key>
-			<string>RGljSMz7ENPmplFNc/CQ22tp7gU=</string>
+			<string>wAfgvKCMaBYzI7MtstpIt56h1pY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.6.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8815021</string>
+			<string>8810613</string>
 			<key>Version</key>
-			<string>2.6.2</string>
+			<string>2.6.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.2/osxfuse-2.6.2.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.3/osxfuse-2.6.3.dmg/download</string>
 			<key>Hash</key>
-			<string>RGljSMz7ENPmplFNc/CQ22tp7gU=</string>
+			<string>wAfgvKCMaBYzI7MtstpIt56h1pY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.6.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8815021</string>
+			<string>8810613</string>
 			<key>Version</key>
-			<string>2.6.2</string>
+			<string>2.6.3</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	MWIW6yh3Nzcfju4fZQGyag7wQam0CnwsnuwYEraE/Dlz/peRJtBXv55La5K/TVdoaGPW
-	lsMowkNvSyVBA1+5YbLnW+4KHuaMjVmMDAS4oSbFWj2GWMgCPa895c2LTfMKN+nJxJMA
-	EeHZb2SuqnE/wDox9xTkeOzdrh9Vu7rXZYk=
+	A5hOu9F8bBm/sOaaSo5gS04U6/2IMp3lZ+YPK+A1VzvCutASwIZ514C9KUWKur83V5Qw
+	911nQA7qEc9su2ER1/6XL+BxiUvHHfCsQcORyg36JkZUZbCm79oqA/3nbjNSab8MI1J0
+	JO3yTZQsoIvMgQctb/6uohNMbnlZoCA4uRU=
 	</data>
 </dict>
 </plist>
