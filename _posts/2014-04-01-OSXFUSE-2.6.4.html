@@ -10,9 +10,6 @@ release:
         - "SHA1: f1411713e7562b379ffe46370bdc7965b02d30ec"
     url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.4/osxfuse-2.6.4.dmg/download
 ---
-<p class="note">
-    This is a developer preview of the FUSE for OS X software. It will supersede version 2.6.2 as the new stable release on 11 Apr 2014.
-</p>
 <h3>New Features</h3>
 <ul>
     <li>Added support for case insensitive FUSE file systems. The macro <code>FUSE_ENABLE_CASE_INSENSITIVE</code> can be used in the FUSE init callback to mark the volume as case insensitive. See <a href="https://github.com/osxfuse/filesystems/commit/d9a598638a14f27ba6050aaeee4cae96580a3341">loopback.c (commit d9a5986)</a> for details.<br/><br/>Please note that <code>FUSE_ENABLE_CASE_INSENSITIVE</code> does not make the FUSE volume case insensitive. It only tells the system that the volume should be treated as such.</li>
