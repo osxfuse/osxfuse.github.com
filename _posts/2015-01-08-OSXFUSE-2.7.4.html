@@ -1,0 +1,18 @@
+---
+layout: release
+title: Release of OSXFUSE 2.7.4
+
+release:
+    name: OSXFUSE 2.7.4
+    description: 
+        - Mac OS X 10.5 or later
+        - Intel or PowerPC
+        - "SHA1: 6c4b68c9bd1669f88821e98e4c4ed56f474fc214"
+    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download
+---
+<h3>Fixes</h3>
+<ul>
+    <li>Restored compatibility with G5-powered (PPC64) Macs running Mac OS X 10.5. Tracked as issues #121: <a href="https://github.com/osxfuse/osxfuse/issues/121">"Doesn't work in PPC Leopard server!?"</a> and #186: <a href="https://github.com/osxfuse/osxfuse/pull/186">"Fixes for building and running on Leopard"</a></li>
+    <li>Fixed an issue that can cause hangs in case a FUSE file system truncates write requests without returning an error code. Tracked as issues #187: <a href="https://github.com/osxfuse/osxfuse/issues/187">"Truncated direct_io writes cause uninterruptible hangs"</a> and #2: <a href="https://github.com/osxfuse/kext/pull/2">"Fixes hangs on truncated writes"</a></li>
+    <li>Addressed an inconsistency in OSXFUSE.framework. File systems build on top of the Objective-C framework do no longer ignore the <code>NSFileSize</code> attribute for directories returned by the <code>attributesOfItemAtPath:userData:error:</code> callback. Tracked as issue #3: <a href="https://github.com/osxfuse/framework/pull/3">"Set st_size for directories too"</a></li>
+</ul>

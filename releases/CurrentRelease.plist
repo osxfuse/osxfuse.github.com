@@ -6,94 +6,94 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download</string>
+			<string>http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.4/osxfuse-2.7.4.dmg/download</string>
 			<key>Hash</key>
-			<string>6jyNF/1C3Ob15gnRs3LtBG+jFAc=</string>
+			<string>bEtoyb0WafiIIemOTE7Vb0dPwhQ=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.7.3"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "2.7.4"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>8818434</string>
+			<string>8811562</string>
 			<key>Version</key>
-			<string>2.7.3</string>
+			<string>2.7.4</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	Gktt6JUpDCIb9mwH0sVIL/D5g0n4j8lgpCcJlS4ExkZgHUsF4us+JMbcn+FMVeafvPrI
-	czFJv+fBm5YLt6uh742ifBzV97fR2XZfO0WQ/qnIH9N1dQgMU4HIGAYDv2JMpUBgCU2t
-	a5uCNBjN1q/GRG9hZYS4LPPlJk709j3gByU=
+	Gv1iqY84IMByiam0SbwxZCo4raOwwEzwetvWnN5yq9cEoZsvksgnx+FZ6mwU8p42Y9fv
+	ZYrv8dpgVavt7CCCsXhe6XBzz0wRSsf/+ic/01romT3VnPJ+NwcK6ly+vJhPq1X/FlI4
+	WlnkdFMiAO/WVz9UZv36lTC20ZnT08R6+Ok=
 	</data>
 </dict>
 </plist>
