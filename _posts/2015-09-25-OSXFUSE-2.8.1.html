@@ -1,0 +1,22 @@
+---
+layout: release
+title: Release of OSXFUSE 2.8.1
+
+release:
+    name: OSXFUSE 2.8.1
+    description: 
+        - Mac OS X 10.5 or later
+        - Intel or PowerPC
+        - "SHA1: 2eab1c953af57e60438f3054d164921989e14fb0"
+    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.8.1/osxfuse-2.8.1.dmg/download
+---
+<h3>New Features</h3>
+<ul>
+    <li>Added support for Xcode 7.1</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+    <li>
+        Improved compatibility with Finder on OS X 10.11. Starting with OS X 10.11 <code>DesktopServicesHelper</code>, which is running as root, calls <code>stat(2)</code> on behalf of Finder when trying to delete a directory. Blocking this request would result in Finder aborting the delete process.
+    </li>
+</ul>
