@@ -1,0 +1,27 @@
+---
+layout: release
+title: Release of OSXFUSE 2.8.2
+
+release:
+    name: OSXFUSE 2.8.2
+    description: 
+        - Mac OS X 10.5 or later
+        - Intel or PowerPC
+        - "SHA1: adf783a596cc9b5f7e074c326551b0282a8c33ec"
+    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.8.2/osxfuse-2.8.2.dmg/download
+---
+<h3>Fixes</h3>
+<ul>
+    <li>
+        Improved compatibility with Finder. Starting with OS X 10.9 <code>syspolicyd</code> (which is running as root) calls <code>getxattr(2)</code> when opening items in Finder. Blocking these calls results in Finder displaying an error message. Therefore we are no longer blocking <code>getxattr(2)</code> calls by root even if <code>allow_root</code> or <code>allow_other</code> is not set.
+        <br/>
+        <br/>
+        Tracked as issue #162: <a href="https://github.com/osxfuse/osxfuse/issues/162">"Preview sets quarantine attribute on all files it opens on an SSHFS volume."</a>
+    </li>
+    <li>
+        Fixed <code>select(2)</code> for FUSE devices on OS X 10.11. The issue was caused by a kernel private struct that has changed between OS X 10.10 and 10.11.
+        <br/>
+        <br/>
+        See <a href="https://groups.google.com/d/msg/osxfuse-group/SaumUOcriPA/ujAbniiVCQAJ">"select(2) on channel fd hangs and makes system unstable on El Capitan"</a> for details.
+    </li>
+</ul>
