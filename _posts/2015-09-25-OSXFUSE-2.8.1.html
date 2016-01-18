@@ -17,6 +17,6 @@ release:
 <h3>Fixes</h3>
 <ul>
     <li>
-        Improved compatibility with Finder on OS X 10.11. Starting with OS X 10.11 <code>DesktopServicesHelper</code>, which is running as root, calls <code>stat(2)</code> on behalf of Finder when trying to delete a directory. Blocking this request would result in Finder aborting the delete process.
+        Improve compatibility with Finder on OS X 10.11. Unless <code>allow_root</code> or <code>allow_other</code> is set we limit vnode operations to the user that mounted the file system. Starting with OS X 10.11 <code>DesktopServicesHelper</code>, which is running as root, calls <code>stat(2)</code> on behalf of Finder when trying to delete a directory. Blocking this request results in Finder aborting the delete process. Therefore we are no longer enforcing <code>allow_root</code> or <code>allow_other</code> for <code>vnop_getattr</code>.
     </li>
 </ul>
