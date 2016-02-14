@@ -53,10 +53,17 @@ layout: base
         });
     }
 
+    function osxfuseDeveloperDownloadCounter(response) {
+        addDownloadCounter("osxfuse-developer", response);
+    }
+
     function sshfsDownloadCounter(response) {
         addDownloadCounter("sshfs", response);
     }
 </script>
+{% if page.osxfuse-developer %}
+<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse-developer.gh_asset_id }}?callback=osxfuseDeveloperDownloadCounter"></script>
+{% endif %}
 <script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/releases/assets/{{ page.sshfs.gh_asset_id }}?callback=sshfsDownloadCounter"></script>
 <div>
     {{ content }}
