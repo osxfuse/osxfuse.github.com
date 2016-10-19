@@ -6,122 +6,122 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.5" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.6" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.7" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.8" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.11" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.11" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.2/osxfuse-3.5.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.5.3/osxfuse-3.5.3.dmg</string>
 			<key>Hash</key>
-			<string>hyxcuPCuD1C26tnU1qtrMcZ2Xs8=</string>
+			<string>qHpuAufYPSQHz8zIQCS7wJl8lPY=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.12" AND Ticket.version != "3.5.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.12" AND Ticket.version != "3.5.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6847189</string>
+			<string>6869688</string>
 			<key>Version</key>
-			<string>3.5.2</string>
+			<string>3.5.3</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	qaX2ZsvDUxYkLjB1YxISqFFVpRm3UvvgbSefx3RgLOqhv3Kl9Jatd8s4rA9OGlBiXyHD
-	aWonX/JtzYRVlPZVihESyxZ69lWLNerMvj6C78EkrAsVTw2jOpX1MGvLA5TFnemV+QYs
-	lIUjA33OqZeHvyE3Vw1P/3HUzZWrqOXVGQc=
+	lo7rB1HUZwS6aAlAmE1eWCxT9LItoAKw+v2DY/N3qHiDWaEMihaEVr1duJJVKiro5vyH
+	H0oJQE1WsgEoNRASVV7D+2xKR6fV5pCl31iyNwmnNImmpJYfJ5V6LH1XerfgHS6dgGjK
+	0RdTYusHKtUt35l7zXQAw3mRvZtmtnmOCgc=
 	</data>
 </dict>
 </plist>
