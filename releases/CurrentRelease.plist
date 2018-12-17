@@ -130,12 +130,26 @@
 			<key>Version</key>
 			<string>3.8.2</string>
 		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.8.2/osxfuse-3.8.2.dmg</string>
+			<key>Hash</key>
+			<string>EAEOvuemWEQUuwnKKfQalVXAan8=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "10.14" AND Ticket.version != "3.8.2"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>6945638</string>
+			<key>Version</key>
+			<string>3.8.2</string>
+		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	BRhehFkxd1YfiAsD6b70SbB6NutsgDPNYYnpuAg8+PhxEt72CNxDKc6S9h6e/wWrdGjF
-	mfplsvlcY+zlV+UDndFg5cmGDUOVa5F/9DPZb1ztFAgHJpsBhpecnrBDwgjown6q4qg9
-	gcOcMG5RBTU0ZRrAIvNxhhZifNk0vrb/Fmc=
+	Vmkyx8KELTWwP+wRaufQXZdILJm/n6XPPOyvJKn/TftC7U2HO3a4XDzZCYy4vfnEkndf
+	SHe8lBWat02N5hUY0fqFNOam/T/MDEgYQGlKvn1Q/y6dhHY+v92mWay9xQ+rQMk/UszV
+	9TogEl8OgZRL9N8kDndVfJLgMQatp6GjW1g=
 	</data>
 </dict>
 </plist>
