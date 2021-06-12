@@ -5,7 +5,7 @@ title: Release of OSXFUSE 2.4.0
 release:
     name: OSXFUSE 2.4.0
     description: 
-        - Mac OS X 10.5 to 10.8
+        - macOS 10.5 to 10.8
         - Intel or PowerPC
         - "SHA1: 540e9995426c8dcb7b2718be5fc7ccb5c18b8a23"
     url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.4.0.dmg"
@@ -20,8 +20,8 @@ release:
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Resolved an issue, that could trigger a <code>vnode reclaim in progress</code> kernel panic on Mac OS X 10.5. Tracked as issue #16: <a href="https://github.com/osxfuse/osxfuse/issues/16">"vnode reclaim in progress - NTFS"</a>.
-    <li>Fixed a bug in the implementation of the <code>exchange</code> file  system operation, that could cause data loss or corruption on Mac OS X 10.7 or later.</li>
+    <li>Resolved an issue, that could trigger a <code>vnode reclaim in progress</code> kernel panic on macOS 10.5. Tracked as issue #16: <a href="https://github.com/osxfuse/osxfuse/issues/16">"vnode reclaim in progress - NTFS"</a>.
+    <li>Fixed a bug in the implementation of the <code>exchange</code> file  system operation, that could cause data loss or corruption on macOS 10.7 or later.</li>
     <li>Resolved several issues, that were caused by using the build-time macro <code>__FreeBSD__</code> when building <code>libosxfuse</code> bindings for various languages. Tracked as issues #17: <a href="https://github.com/osxfuse/osxfuse/issues/17">"osxfuse.pc contains -D__FreeBSD__=10"</a> and #25: <a href="https://github.com/osxfuse/osxfuse/issues/25">"sys/statfs.h included but unnecessary"</a>.</li>
     <li>Fixed an issue, that could result in FUSE command line options being ignored or overwritten when mounting a FUSE volume on 64-bit Macs.</li>
     <li>Fixed an issue, that could cause OS X to run out of I/O buffer space and become unresponsive in rare cases.

@@ -5,23 +5,23 @@ title: Release of OSXFUSE 2.3.9
 release:
     name: OSXFUSE 2.3.9
     description: 
-        - Mac OS X 10.5 to 10.7
+        - macOS 10.5 to 10.7
         - Intel or PowerPC
         - "SHA1: a4679c7dc3d533a63d0198a57199555068cc76f9"
     url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.3.9.dmg"
 ---
 <h3>New Features</h3>
 <ul>
-    <li>Added support for building PowerPC file systems on Mac OS X 10.6 and 10.7, if an appropriate version of Xcode is installed (e.g. Xcode 3.2.6). Tracked as issue #12: <a href="https://github.com/osxfuse/osxfuse/issues/12">"OSXFUSE 2.3.4 has no ppc compiled in"</a>.</li>
+    <li>Added support for building PowerPC file systems on macOS 10.6 and 10.7, if an appropriate version of Xcode is installed (e.g. Xcode 3.2.6). Tracked as issue #12: <a href="https://github.com/osxfuse/osxfuse/issues/12">"OSXFUSE 2.3.4 has no ppc compiled in"</a>.</li>
 </ul>
 <h3>Fixes</h3>
 <ul>
     <li>Fixed a race condition, that would lead to a file system deadlock. The deadlock could be triggered by a read/write operation in <code>fuse_internal_strategy</code> on a file, that another thread had just created (but not opened, yet).</li>
     <li>Fixed a deadlock in <code>fuse_vnop_mmap</code> that affected certain file systems (i. e. MooseFS). It could by triggered by the file operation <code>VNOP_MMAP</code> which tries to authorize the action on the vnode corresponding to the file. In case the authorization is not already cached <code>VNOP_GETATTR</code> is called which caused the deadlock.</li>
     <li>Fixed an issue that could trigger a <code>vnode reclaim in
-        progress</code> kernel panic on 32-bit kernels of Mac OS X 10.6 and later. Tracked as issue #16: <a href="https://github.com/osxfuse/osxfuse/issues/16">"vnode reclaim in progress - NTFS"</a>.</li>
+        progress</code> kernel panic on 32-bit kernels of macOS 10.6 and later. Tracked as issue #16: <a href="https://github.com/osxfuse/osxfuse/issues/16">"vnode reclaim in progress - NTFS"</a>.</li>
     <li>Fixed an issue where Finder would report a wrong file size for files on sparse FUSE file systems.</li>
-    <li>Fixed an issue that caused Finder on Mac OS X 10.6 and later to not display updated free/used space values for FUSE volumes. This is done by enabling capability <code>VOL_CAP_FMT_FAST_STATFS</code> by default and implementing the mount-time option <code>slow_statfs</code>. This option is interesting for network file systems where calls to <code>statfs</code> are expensive.</li>
+    <li>Fixed an issue that caused Finder on macOS 10.6 and later to not display updated free/used space values for FUSE volumes. This is done by enabling capability <code>VOL_CAP_FMT_FAST_STATFS</code> by default and implementing the mount-time option <code>slow_statfs</code>. This option is interesting for network file systems where calls to <code>statfs</code> are expensive.</li>
 </ul>
 <h3>Changes</h3>
 <ul>

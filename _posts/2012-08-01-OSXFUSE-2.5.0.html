@@ -5,7 +5,7 @@ title: Release of OSXFUSE 2.5.0
 release:
     name: OSXFUSE 2.5.0
     description: 
-        - Mac OS X 10.5 to 10.8
+        - macOS 10.5 to 10.8
         - Intel or PowerPC
         - "SHA1: 35c34bf8c539d0f90206eecf1857b9a75546e683"
     url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.0.dmg"
@@ -28,7 +28,7 @@ release:
     <li>Addressed an issue, that can result in unexpected behavior of Objective-C FUSE file systems using <code>OSXFUSE.framework</code>. This issue was caused by using a non thread safe file manager instance. Tracked as issue #37: <a href="https://github.com/osxfuse/osxfuse/issues/37">"ObjC framework should avoid [NSFileManager defaultManager]"</a></li>
     <li>Fixed a bug, that prevents user root from accessing files on a FUSE volume despite mount-time option <code>allow_root</code> being set. The issue is caused by an inconsistent permission check in file system operation <code>access</code>. Patch by Anatol Pomozov.</li>
     <li>Fixed an issue, that triggers a kernel panic on OS X 10.8 in case of a failed mount attempt of a FUSE volume. Tracked as issue #38: <a href="https://github.com/osxfuse/osxfuse/issues/38">"sshfs-2.4.1 / osxfuse-2.4.2 kernel panic when a remote directory is mounted twice"</a>, issue #43: <a href="https://github.com/osxfuse/osxfuse/issues/43">Mountain Lion kernal panic</a> and issue #44: <a href="https://github.com/osxfuse/osxfuse/issues/44">"Mountain Lion kernel panics"</a>.</li>
-    <li>Addressed an issue, that can trigger a kernel panic in tight mount/umount cycles on Mac OS X 10.5 and later. Bug reported by Zach Marquez: <a href="https://groups.google.com/d/topic/osxfuse-group/Pou_FM8uSYw/discussion">"Kernel panic in tight mount/unmount loop"</a></li>
+    <li>Addressed an issue, that can trigger a kernel panic in tight mount/umount cycles on macOS 10.5 and later. Bug reported by Zach Marquez: <a href="https://groups.google.com/d/topic/osxfuse-group/Pou_FM8uSYw/discussion">"Kernel panic in tight mount/unmount loop"</a></li>
 </ul>
 <h3>Changes</h3>
 <ul>
