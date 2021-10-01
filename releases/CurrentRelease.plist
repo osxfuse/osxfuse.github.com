@@ -90,24 +90,24 @@
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.2.0/macfuse-4.2.0.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.2.1/macfuse-4.2.1.dmg</string>
 			<key>Hash</key>
-			<string>LlXmNJK07ILYUEvglc+OQlZ9Bwg=</string>
+			<string>ghM5ZI02j6RAnduup7qG8u0AtfU=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "4.2.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "4.2.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>5975938</string>
+			<string>5974464</string>
 			<key>Version</key>
-			<string>4.2.0</string>
+			<string>4.2.1</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	qsf61dg1pg1qmjDnuO+rAaQmjcr2qyKQuBLj0pxWi8gIjUzPWnEojsgrMPPP83Gft7KK
-	SPQqZ6jcU1Zdehf4Lz5WhPERG4ooZlVakyYQdrkgBl7PnBpK4uLcNCF2D8Fy+32oZkDP
-	qVMRSlgsPjTMmNGmjhtBZCoUu7Sqbv5dJ58=
+	ZTZuV3uE2Ov+KvxRiRghD02FbPXZvtlIBl/4IJ9rrl+qy/T3v4ePFu0xNx8qTRVkOH5f
+	yC3fWzi9UxDLZC23olHsS3q2ZnRhQqkx4OA1JgGNvKYAuxQG3CjEhYls+KkUtosKBiH0
+	mEFEB2SeBvY8X06PUvHu0IIelEu3Y9TL7gE=
 	</data>
 </dict>
 </plist>
