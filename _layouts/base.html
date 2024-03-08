@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ page.title }} - macFUSE</title>
-        <script type="text/javascript" src="/static/jquery-1.7.1.min.js"></script>
-    </head>
-    <body>
-        <style type="text/css" scoped="scoped">
-            @import url('/static/base.css') screen;
-        </style>
-        <div id="header">
-            <a href="/">
-                <h1>
-                    <span id="title">macFUSE</span>
-                    <br>
-                    <span id="subtitle">File system integration made easy</span>
-                </h1>
-            </a>
-            <ul id="menu">
-                <li><a href="https://github.com/osxfuse">Project on GitHub</a></li><li><a href="https://github.com/osxfuse/osxfuse/releases">Downloads</a></li><li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li><li><a href="https://groups.google.com/forum/#!forum/osxfuse-group">Google Group</a></li><li><a href="https://github.com/osxfuse/osxfuse/issues">Issue Tracker</a></li>
-            </ul>
-        </div>
-        <div id="content">
-            {{ content }}
-        </div>
-        <div id="sponsors" class="footer">
-            <div>
-                <h2>Sponsors of the macFUSE project</h2>
-                <a href="https://www.boxcryptor.com"><img src="/static/boxcryptor_logo.png" alt="BoxCryptor"></a>
-                <a href="http://www.editshare.com"><img src="/static/editshare_logo.png" alt="EditShare"></a>
-                <a href="https://projective.io"><img src="/static/projective_logo.png" alt="Projective"></a>
-                <a href="https://hedge.video"><img src="/static/hedge_logo.png" alt="Hedge"></a>
-            </div>
-        </div>
-        <div id="legal" class="footer">
-            <div>
-                <a href="https://raw.githubusercontent.com/osxfuse/osxfuse/releases/LICENSE.txt">macFUSE License</a>
-                <br>
-                &copy; 2011-2024 Benjamin Fleischer
-                <br>
-                &copy; 2007-2009 Google Inc.
-                <br>
-                Mac, OS X, macOS are trademarks of Apple Inc., registered in the U.S. and other countries. Other trademarks are the property of their respective owners.
-            </div>
-        </div>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} - macFUSE</title>
+    <script type="text/javascript" src="/static/jquery-1.7.1.min.js"></script>
+  </head>
+  <body>
+    <style type="text/css" scoped="scoped">
+      @import url("/static/base.css") screen;
+    </style>
+    <div id="header">
+      <a href="/">
+        <h1>
+          <span id="title">macFUSE</span>
+          <br />
+          <span id="subtitle">File system integration made easy</span>
+        </h1>
+      </a>
+      <ul id="menu">
+        <li><a href="https://github.com/osxfuse">Project on GitHub</a></li>
+        <li>
+          <a href="https://github.com/osxfuse/osxfuse/releases">Downloads</a>
+        </li>
+        <li><a href="https://github.com/osxfuse/osxfuse/wiki">Wiki</a></li>
+        <li>
+          <a href="https://groups.google.com/forum/#!forum/osxfuse-group"
+            >Google Group</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/osxfuse/osxfuse/issues">Issue Tracker</a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">{{ content }}</div>
+    <div id="sponsors" class="footer">
+      <div>
+        <h2>Sponsors of the macFUSE project</h2>
+        <a href="https://www.boxcryptor.com"
+          ><img src="/static/boxcryptor_logo.png" alt="BoxCryptor"
+        /></a>
+        <a href="http://www.editshare.com"
+          ><img src="/static/editshare_logo.png" alt="EditShare"
+        /></a>
+        <a href="https://projective.io"
+          ><img src="/static/projective_logo.png" alt="Projective"
+        /></a>
+        <a href="https://hedge.video"
+          ><img src="/static/hedge_logo.png" alt="Hedge"
+        /></a>
+      </div>
+    </div>
+    <div id="legal" class="footer">
+      <div>
+        <a
+          href="https://raw.githubusercontent.com/osxfuse/osxfuse/releases/LICENSE.txt"
+          >macFUSE License</a
+        >
+        <br />
+        &copy; 2011-2024 Benjamin Fleischer
+        <br />
+        &copy; 2007-2009 Google Inc.
+        <br />
+        Mac, OS X, macOS are trademarks of Apple Inc., registered in the U.S.
+        and other countries. Other trademarks are the property of their
+        respective owners.
+      </div>
+    </div>
+  </body>
 </html>
