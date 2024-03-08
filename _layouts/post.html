@@ -1,39 +1,40 @@
 ---
 layout: base
 ---
+
 <style type="text/css" scoped="scoped">
-    @import url('/static/sidebar.css') screen;
+  @import url("/static/sidebar.css") screen;
 
-    #content h2 span.date {
-        position: absolute;
-        right: 0px;
-        bottom: 5px;
+  #content h2 span.date {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
 
-        font-size: 11px;
-        font-weight: 200;
-        color: #808080;
-    }
+    font-size: 11px;
+    font-weight: 200;
+    color: #808080;
+  }
 </style>
 <div>
-    <h2>
-        {{ page.title }}
-        <span class="date">Posted on {{ page.date | date_to_string }}</span>
-    </h2>
-    {{ content }}
+  <h2>
+    {{ page.title }}
+    <span class="date">Posted on {{ page.date | date_to_string }}</span>
+  </h2>
+  {{ content }}
 </div>
 <div id="sidebar">
-    <h2>
-        Related Posts
-        <a class="archive" href="/archive.html">Archive</a></span>
-    </h2>
-    <ul class="bloblist">
-        {% for post in site.related_posts limit: 8 %}
-            <li class="blob">
-                <a href="{{ post.url }}">
-                    {{ post.title }}
-                    <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+  <h2>
+    Related Posts
+    <a class="archive" href="/archive.html">Archive</a>
+  </h2>
+  <ul class="bloblist">
+    {% for post in site.related_posts limit: 8 %}
+    <li class="blob">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+        <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

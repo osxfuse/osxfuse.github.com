@@ -3,33 +3,53 @@ layout: release
 title: Release of OSXFUSE 2.6.1
 
 release:
-    name: OSXFUSE 2.6.1
-    description: 
-        - macOS 10.5 to 10.9
-        - Intel or PowerPC
-        - "SHA1: 2e43a6593aee5fa45166b8abc70ad054a83d083b"
-    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.1/osxfuse-2.6.1.dmg/download
+  name: OSXFUSE 2.6.1
+  description:
+    - macOS 10.5 to 10.9
+    - Intel or PowerPC
+    - "SHA1: 2e43a6593aee5fa45166b8abc70ad054a83d083b"
+  url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.6.1/osxfuse-2.6.1.dmg/download
 ---
+
 <h3>New Features</h3>
 <ul>
-    <li>Improved support for OS X 10.9</li>
-    <li>
-        Smarter discovery of the "Developer ID Application" and "Developer ID Installer" signing certificates in the user's keychain when building FUSE for OS X. Use the following build script options to specify different certificates:
-        <pre>
+  <li>Improved support for OS X 10.9</li>
+  <li>
+    Smarter discovery of the "Developer ID Application" and "Developer ID
+    Installer" signing certificates in the user's keychain when building FUSE
+    for OS X. Use the following build script options to specify different
+    certificates:
+    <pre>
 -j &lt;code signing certificate&gt;
--i &lt;installer signing certificate&gt;</pre>
-    </li>
-    <li>
-        Added support for building and installing FUSE for OS X on macOS 10.6 to 10.8 using <a href="http://brew.sh">Homebrew</a>, a package manager for OS X. Tracked as issue #1: <a href="https://github.com/osxfuse/osxfuse/issues/1">"allow to define install prefix manually"</a> and pull request #21318: <a href="https://github.com/mxcl/homebrew/pull/21318">"osxfuse 2.6.1"</a>
-        <br/>
-        <br/>
-        <span class="note">Please note that as of writing this the pull request is still being reviewed. Until it is accepted, osxfuse can be installed by running the following command:</span>
-        <pre>
-brew install https://raw.github.com/bfleischer/homebrew/osxfuse/Library/Formula/osxfuse.rb</pre>
-    </li>
+-i &lt;installer signing certificate&gt;</pre
+    >
+  </li>
+  <li>
+    Added support for building and installing FUSE for OS X on macOS 10.6 to
+    10.8 using <a href="http://brew.sh">Homebrew</a>, a package manager for OS
+    X. Tracked as issue #1:
+    <a href="https://github.com/osxfuse/osxfuse/issues/1"
+      >"allow to define install prefix manually"</a
+    >
+    and pull request #21318:
+    <a href="https://github.com/mxcl/homebrew/pull/21318">"osxfuse 2.6.1"</a>
+    <br />
+    <br />
+    <span class="note"
+      >Please note that as of writing this the pull request is still being
+      reviewed. Until it is accepted, osxfuse can be installed by running the
+      following command:</span
+    >
+    <pre>
+brew install https://raw.github.com/bfleischer/homebrew/osxfuse/Library/Formula/osxfuse.rb</pre
+    >
+  </li>
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Fixed a bug in the build script, that resulted in the FUSE for OS X 2.6.0 installer package not being singned.</li>
-    <li>Fixed various issues with option parsing in the build script.</li>
+  <li>
+    Fixed a bug in the build script, that resulted in the FUSE for OS X 2.6.0
+    installer package not being singned.
+  </li>
+  <li>Fixed various issues with option parsing in the build script.</li>
 </ul>

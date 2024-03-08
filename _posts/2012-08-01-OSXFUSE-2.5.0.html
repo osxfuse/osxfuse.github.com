@@ -3,34 +3,99 @@ layout: release
 title: Release of OSXFUSE 2.5.0
 
 release:
-    name: OSXFUSE 2.5.0
-    description: 
-        - macOS 10.5 to 10.8
-        - Intel or PowerPC
-        - "SHA1: 35c34bf8c539d0f90206eecf1857b9a75546e683"
-    url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.0.dmg"
+  name: OSXFUSE 2.5.0
+  description:
+    - macOS 10.5 to 10.8
+    - Intel or PowerPC
+    - "SHA1: 35c34bf8c539d0f90206eecf1857b9a75546e683"
+  url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.0.dmg"
 ---
-<p class="note">
-    This is a developer preview of the OSXFUSE software.
-</p>
+
+<p class="note">This is a developer preview of the OSXFUSE software.</p>
 <h3>New Features</h3>
 <ul>
-    <li>Full support for OS X 10.8.</li>
-    <li>Full support for Xcode 4.4 on OS X 10.7 and 10.8. See <a href="https://github.com/osxfuse/osxfuse/blob/osxfuse-2/README.md">README.md</a> for more information on building OSXFUSE.</li>
-    <li>Implemented FUSE device operation <code>select</code>. Using system call <code>select</code> allows waiting for FUSE requests sent from the kernel extension to a user space FUSE daemon in a very efficient manner while handling other events in the same thread. Patch by Thomas Nordin.</li>
+  <li>Full support for OS X 10.8.</li>
+  <li>
+    Full support for Xcode 4.4 on OS X 10.7 and 10.8. See
+    <a href="https://github.com/osxfuse/osxfuse/blob/osxfuse-2/README.md"
+      >README.md</a
+    >
+    for more information on building OSXFUSE.
+  </li>
+  <li>
+    Implemented FUSE device operation <code>select</code>. Using system call
+    <code>select</code> allows waiting for FUSE requests sent from the kernel
+    extension to a user space FUSE daemon in a very efficient manner while
+    handling other events in the same thread. Patch by Thomas Nordin.
+  </li>
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Fixed a bug, that can trigger a kernel panic when performing file system operations on a dying FUSE volume. Reported by Andreas Guðmundsson: <a href="https://groups.google.com/d/topic/osxfuse-group/zwpaEy6aGZ4/discussion">"panic in fuse_vnop_mmap"</a>.</li>
-    <li>Fixed an issue where user space FUSE file systems, that are being unmounted, do not receive reclaim messages before receiving message <code>FUSE_DESTROY</code>. Patch by Anatol Pomozov.</li>
-    <li>Fixed a bug, that can trigger a kernel panic when reading or writing files on a FUSE volume. Tracked as issue #35: <a href="https://github.com/osxfuse/osxfuse/issues/35">"Kernel panic on osx 10.7"</a>.</li>
-    <li>Fixed an issue that can prevent a multi-threaded FUSE file systems from terminating when receiving singal <code>SIGINT</code> (Ctrl+C). Based on a patch by Anatol Pomozov.</li>
-    <li>Addressed an issue, that can result in unexpected behavior of Objective-C FUSE file systems using <code>OSXFUSE.framework</code>. This issue was caused by using a non thread safe file manager instance. Tracked as issue #37: <a href="https://github.com/osxfuse/osxfuse/issues/37">"ObjC framework should avoid [NSFileManager defaultManager]"</a></li>
-    <li>Fixed a bug, that prevents user root from accessing files on a FUSE volume despite mount-time option <code>allow_root</code> being set. The issue is caused by an inconsistent permission check in file system operation <code>access</code>. Patch by Anatol Pomozov.</li>
-    <li>Fixed an issue, that triggers a kernel panic on OS X 10.8 in case of a failed mount attempt of a FUSE volume. Tracked as issue #38: <a href="https://github.com/osxfuse/osxfuse/issues/38">"sshfs-2.4.1 / osxfuse-2.4.2 kernel panic when a remote directory is mounted twice"</a>, issue #43: <a href="https://github.com/osxfuse/osxfuse/issues/43">Mountain Lion kernal panic</a> and issue #44: <a href="https://github.com/osxfuse/osxfuse/issues/44">"Mountain Lion kernel panics"</a>.</li>
-    <li>Addressed an issue, that can trigger a kernel panic in tight mount/umount cycles on macOS 10.5 and later. Bug reported by Zach Marquez: <a href="https://groups.google.com/d/topic/osxfuse-group/Pou_FM8uSYw/discussion">"Kernel panic in tight mount/unmount loop"</a></li>
+  <li>
+    Fixed a bug, that can trigger a kernel panic when performing file system
+    operations on a dying FUSE volume. Reported by Andreas Guðmundsson:
+    <a
+      href="https://groups.google.com/d/topic/osxfuse-group/zwpaEy6aGZ4/discussion"
+      >"panic in fuse_vnop_mmap"</a
+    >.
+  </li>
+  <li>
+    Fixed an issue where user space FUSE file systems, that are being unmounted,
+    do not receive reclaim messages before receiving message
+    <code>FUSE_DESTROY</code>. Patch by Anatol Pomozov.
+  </li>
+  <li>
+    Fixed a bug, that can trigger a kernel panic when reading or writing files
+    on a FUSE volume. Tracked as issue #35:
+    <a href="https://github.com/osxfuse/osxfuse/issues/35"
+      >"Kernel panic on osx 10.7"</a
+    >.
+  </li>
+  <li>
+    Fixed an issue that can prevent a multi-threaded FUSE file systems from
+    terminating when receiving singal <code>SIGINT</code> (Ctrl+C). Based on a
+    patch by Anatol Pomozov.
+  </li>
+  <li>
+    Addressed an issue, that can result in unexpected behavior of Objective-C
+    FUSE file systems using <code>OSXFUSE.framework</code>. This issue was
+    caused by using a non thread safe file manager instance. Tracked as issue
+    #37:
+    <a href="https://github.com/osxfuse/osxfuse/issues/37"
+      >"ObjC framework should avoid [NSFileManager defaultManager]"</a
+    >
+  </li>
+  <li>
+    Fixed a bug, that prevents user root from accessing files on a FUSE volume
+    despite mount-time option <code>allow_root</code> being set. The issue is
+    caused by an inconsistent permission check in file system operation
+    <code>access</code>. Patch by Anatol Pomozov.
+  </li>
+  <li>
+    Fixed an issue, that triggers a kernel panic on OS X 10.8 in case of a
+    failed mount attempt of a FUSE volume. Tracked as issue #38:
+    <a href="https://github.com/osxfuse/osxfuse/issues/38"
+      >"sshfs-2.4.1 / osxfuse-2.4.2 kernel panic when a remote directory is
+      mounted twice"</a
+    >, issue #43:
+    <a href="https://github.com/osxfuse/osxfuse/issues/43"
+      >Mountain Lion kernal panic</a
+    >
+    and issue #44:
+    <a href="https://github.com/osxfuse/osxfuse/issues/44"
+      >"Mountain Lion kernel panics"</a
+    >.
+  </li>
+  <li>
+    Addressed an issue, that can trigger a kernel panic in tight mount/umount
+    cycles on macOS 10.5 and later. Bug reported by Zach Marquez:
+    <a
+      href="https://groups.google.com/d/topic/osxfuse-group/Pou_FM8uSYw/discussion"
+      >"Kernel panic in tight mount/unmount loop"</a
+    >
+  </li>
 </ul>
 <h3>Changes</h3>
 <ul>
-    <li>Various under-the-hood improvements and code cleanups.</li>
+  <li>Various under-the-hood improvements and code cleanups.</li>
 </ul>

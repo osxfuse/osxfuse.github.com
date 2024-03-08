@@ -3,25 +3,34 @@ layout: release
 title: Release of OSXFUSE 2.7.3
 
 release:
-    name: OSXFUSE 2.7.3
-    description: 
-        - macOS 10.5 to 10.10
-        - Intel or PowerPC
-        - "SHA1: ea3c8d17fd42dce6f5e609d1b372ed046fa31407"
-    url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download
+  name: OSXFUSE 2.7.3
+  description:
+    - macOS 10.5 to 10.10
+    - Intel or PowerPC
+    - "SHA1: ea3c8d17fd42dce6f5e609d1b372ed046fa31407"
+  url: http://sourceforge.net/projects/osxfuse/files/osxfuse-2.7.3/osxfuse-2.7.3.dmg/download
 ---
+
 <h3>New Features</h3>
 <ul>
-    <li>Added support for Xcode 6.2</li>
+  <li>Added support for Xcode 6.2</li>
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>
-        Fixed race condition that can cause data corruption in case the unified buffer cache (UBC) is disabled.
-        <br/>
-        </br/>
-        If a file vnode is being looked up while another thread is extending the file, the lookup thread might override the file's new extended size. As a result the write operation might fail with <code>EINVAL</code> or the file's content might become corrupted.
-        <br/>
-        <br/>
-        Tracked as issue #179: <a href="https://github.com/osxfuse/osxfuse/issues/179">"Data corruption in files with size not aligned to 4K"</a></li>
+  <li>
+    Fixed race condition that can cause data corruption in case the unified
+    buffer cache (UBC) is disabled.
+    <br />
+    <br />
+    If a file vnode is being looked up while another thread is extending the
+    file, the lookup thread might override the file's new extended size. As a
+    result the write operation might fail with <code>EINVAL</code> or the file's
+    content might become corrupted.
+    <br />
+    <br />
+    Tracked as issue #179:
+    <a href="https://github.com/osxfuse/osxfuse/issues/179"
+      >"Data corruption in files with size not aligned to 4K"</a
+    >
+  </li>
 </ul>

@@ -3,20 +3,36 @@ layout: release
 title: Release of OSXFUSE 2.5.1
 
 release:
-    name: OSXFUSE 2.5.1
-    description: 
-        - macOS 10.5 to 10.8
-        - Intel or PowerPC
-        - "SHA1: a049858ef71b750ea773c29a07bfc72c4e48d751"
-    url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg"
+  name: OSXFUSE 2.5.1
+  description:
+    - macOS 10.5 to 10.8
+    - Intel or PowerPC
+    - "SHA1: a049858ef71b750ea773c29a07bfc72c4e48d751"
+  url: "https://github.com/downloads/osxfuse/osxfuse/OSXFUSE-2.5.1.dmg"
 ---
+
 <h3>New Features</h3>
 <ul>
-    <li>Added support for Xcode 4.5</li>
+  <li>Added support for Xcode 4.5</li>
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Addressed compatibility issues when building OSXFUSE on OS X 10.8.</li>
-    <li>Fixed a memory management bug in handling of FUSE <code>FSYNC</code> requests, that can trigger a kernel panic when unmounting FUSE volumes. Tracked as issue #48: <a href="https://github.com/osxfuse/osxfuse/issues/48">"Mountain Lion kernel panics with 2.5.0 (unmounting or shutting down VM)"</a></li>
-    <li>Fixed a bug, that can trigger a kernel panic when performing various file system operations. Tracked as issue #49: <a href="https://github.com/osxfuse/osxfuse/issues/49">"Mountain Lion kernel panics with 2.5.0 (OSXFUSE: Attempted to lock max-locked recursive lock)"</a>.</li>
+  <li>Addressed compatibility issues when building OSXFUSE on OS X 10.8.</li>
+  <li>
+    Fixed a memory management bug in handling of FUSE
+    <code>FSYNC</code> requests, that can trigger a kernel panic when unmounting
+    FUSE volumes. Tracked as issue #48:
+    <a href="https://github.com/osxfuse/osxfuse/issues/48"
+      >"Mountain Lion kernel panics with 2.5.0 (unmounting or shutting down
+      VM)"</a
+    >
+  </li>
+  <li>
+    Fixed a bug, that can trigger a kernel panic when performing various file
+    system operations. Tracked as issue #49:
+    <a href="https://github.com/osxfuse/osxfuse/issues/49"
+      >"Mountain Lion kernel panics with 2.5.0 (OSXFUSE: Attempted to lock
+      max-locked recursive lock)"</a
+    >.
+  </li>
 </ul>

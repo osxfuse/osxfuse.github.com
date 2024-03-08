@@ -3,24 +3,40 @@ layout: release
 title: Release of OSXFUSE 2.3.1
 
 release:
-    name: OSXFUSE 2.3.1
-    description: 
-        - macOS 10.6 to 10.7
-        - Intel
-        - "SHA1: 0076e8cefb5ec71cd0134b17d4b38a7021e4b749"
-    url: "https://github.com/osxfuse/osxfuse.github.com/raw/831c5c557993bfc15db59d0fc3bc5d07417214a7/releases/OSXFUSE-2.3.dmg"
+  name: OSXFUSE 2.3.1
+  description:
+    - macOS 10.6 to 10.7
+    - Intel
+    - "SHA1: 0076e8cefb5ec71cd0134b17d4b38a7021e4b749"
+  url: "https://github.com/osxfuse/osxfuse.github.com/raw/831c5c557993bfc15db59d0fc3bc5d07417214a7/releases/OSXFUSE-2.3.dmg"
 ---
+
 <h3>New Features</h3>
 <ul>
-    <li>Enhanced MacFUSE compatibility mode to make OSXFUSE compatible with the latest TrueCrypt release.</li>
+  <li>
+    Enhanced MacFUSE compatibility mode to make OSXFUSE compatible with the
+    latest TrueCrypt release.
+  </li>
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Fixed a bug in build script target <code>reload</code>.</li>
-    <li>Fixed a bug in <code>OSXFUSE.framework</code> that may have resulted in the selector <code>removeExtendedAttribute:ofItemAtPath:error:</code> never being called. Tracked as issue #2: <a href="https://github.com/osxfuse/osxfuse/issues/2">"removeExtendedAttribute never called"</a>. Reported and fixed by Dan Cooper.</li>
-    <li>Fixed bundle identifier of the OSXFUSE kernel extension.</li>
+  <li>Fixed a bug in build script target <code>reload</code>.</li>
+  <li>
+    Fixed a bug in <code>OSXFUSE.framework</code> that may have resulted in the
+    selector <code>removeExtendedAttribute:ofItemAtPath:error:</code> never
+    being called. Tracked as issue #2:
+    <a href="https://github.com/osxfuse/osxfuse/issues/2"
+      >"removeExtendedAttribute never called"</a
+    >. Reported and fixed by Dan Cooper.
+  </li>
+  <li>Fixed bundle identifier of the OSXFUSE kernel extension.</li>
 </ul>
 <h3>Known Issues</h3>
 <ul>
-    <li>Many simultaneous file system operations on an OSXFUSE/MacFUSE volume may trigger a file system deadlock, that renders the file system being unresponsive and therefore being ejected. This bug affects solely Macs running a 64 bit kernel.</li>
+  <li>
+    Many simultaneous file system operations on an OSXFUSE/MacFUSE volume may
+    trigger a file system deadlock, that renders the file system being
+    unresponsive and therefore being ejected. This bug affects solely Macs
+    running a 64 bit kernel.
+  </li>
 </ul>

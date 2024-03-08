@@ -3,41 +3,66 @@ layout: home
 title: Home
 
 osxfuse:
-    version: 4.6.1
-    description:
-        - macOS 10.9 or later
-        - Apple Silicon or Intel
-    date: 04 Mar 2024
-    url: "https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.1/macfuse-4.6.1.dmg"
-    gh_asset_id: 154882085
+  version: 4.6.1
+  description:
+    - macOS 10.9 or later
+    - Apple Silicon or Intel
+  date: 04 Mar 2024
+  url: "https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.1/macfuse-4.6.1.dmg"
+  gh_asset_id: 154882085
 
 sshfs:
-    version: 2.5.0
-    description:
-        - macOS 10.5 or later
-        - Intel or PowerPC
-    date: 03 Feb 2014
-    url: "https://github.com/osxfuse/sshfs/releases/download/osxfuse-sshfs-2.5.0/sshfs-2.5.0.pkg"
-    gh_asset_id: 70509
+  version: 2.5.0
+  description:
+    - macOS 10.5 or later
+    - Intel or PowerPC
+  date: 03 Feb 2014
+  url: "https://github.com/osxfuse/sshfs/releases/download/osxfuse-sshfs-2.5.0/sshfs-2.5.0.pkg"
+  gh_asset_id: 70509
 ---
+
 <h2>What is macFUSE?</h2>
 <p>
-    macFUSE allows you to extend macOS's native file handling capabilities via third-party file systems.
+  macFUSE allows you to extend macOS's native file handling capabilities via
+  third-party file systems.
 </p>
 <h3>Features</h3>
 <p>
-    As a user, installing the macFUSE software package will let you use any third-party FUSE file system. Legacy MacFUSE file systems are supported through the optional MacFUSE compatibility layer.
+  As a user, installing the macFUSE software package will let you use any
+  third-party FUSE file system. Legacy MacFUSE file systems are supported
+  through the optional MacFUSE compatibility layer.
 </p>
 <p>
-    As a developer, you can use the FUSE SDK to write numerous types of new file systems as regular user space programs. The content of these file systems can come from anywhere: from the local disk, from across the network, from memory, or any other combination of sources. Writing a file system using FUSE is orders of magnitude easier and quicker than the traditional approach of writing in-kernel file systems. Since FUSE file systems are regular applications (as opposed to kernel extensions), you have just as much flexibility and choice in programming tools, debuggers, and libraries as you have if you were developing standard macOS applications.
+  As a developer, you can use the FUSE SDK to write numerous types of new file
+  systems as regular user space programs. The content of these file systems can
+  come from anywhere: from the local disk, from across the network, from memory,
+  or any other combination of sources. Writing a file system using FUSE is
+  orders of magnitude easier and quicker than the traditional approach of
+  writing in-kernel file systems. Since FUSE file systems are regular
+  applications (as opposed to kernel extensions), you have just as much
+  flexibility and choice in programming tools, debuggers, and libraries as you
+  have if you were developing standard macOS applications.
 </p>
 <h3>How It Works</h3>
 <p>
-    In more technical terms, FUSE implements a mechanism that makes it possible to implement a fully functional file system in a user-space program on macOS. It provides multiple APIs, one of which is a superset of the <a href="http://fuse.sourceforge.net/">FUSE API</a> (file system in user space) that originated on Linux. Therefore, many existing FUSE file systems become readily usable on macOS.
+  In more technical terms, FUSE implements a mechanism that makes it possible to
+  implement a fully functional file system in a user-space program on macOS. It
+  provides multiple APIs, one of which is a superset of the
+  <a href="http://fuse.sourceforge.net/">FUSE API</a> (file system in user
+  space) that originated on Linux. Therefore, many existing FUSE file systems
+  become readily usable on macOS.
 </p>
 <p>
-    The macFUSE software consists of a kernel extension and various user space libraries and tools. It comes with C-based and Objective-C-based SDKs. If you prefer another language (say, Python or Java), you should be able to create file systems in those languages after you install the relevant language bindings yourself.
+  The macFUSE software consists of a kernel extension and various user space
+  libraries and tools. It comes with C-based and Objective-C-based SDKs. If you
+  prefer another language (say, Python or Java), you should be able to create
+  file systems in those languages after you install the relevant language
+  bindings yourself.
 </p>
 <p>
-    The <a href="https://github.com/osxfuse/filesystems">filesystems</a> repository contains source code for several exciting and useful file systems for you to browse, compile, and build upon, such as sshfs, procfs, AccessibilityFS, GrabFS, LoopbackFS, SpotlightFS, and YouTubeFS.
+  The
+  <a href="https://github.com/osxfuse/filesystems">filesystems</a> repository
+  contains source code for several exciting and useful file systems for you to
+  browse, compile, and build upon, such as sshfs, procfs, AccessibilityFS,
+  GrabFS, LoopbackFS, SpotlightFS, and YouTubeFS.
 </p>
