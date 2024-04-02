@@ -1,126 +1,136 @@
 ---
 layout: base
 ---
+
 <style type="text/css" scoped="scoped">
-    @import url('/static/sidebar.css') screen;
+  @import url("/static/sidebar.css") screen;
 
-    #header h1 {
-        width: 575px;
-        min-height: 200px;
+  #header h1 {
+    width: 575px;
+    min-height: 200px;
 
-        background-image: url('/static/osxfuse-home.png');
-        background-size: 200px;
-        background-position: left center;
+    background-image: url("/static/osxfuse-home.png");
+    background-size: 200px;
+    background-position: left center;
 
-        padding-left: 225px;
-    }
+    padding-left: 225px;
+  }
 
-    #header h1 #title {
-        margin-top: 55px;
-    }
+  #header h1 #title {
+    margin-top: 55px;
+  }
 
-    #header h1 #subtitle {
-        display: inline-block;
-    }
+  #header h1 #subtitle {
+    display: inline-block;
+  }
 
-    #sidebar .release a:first-child {
-        min-height: 60px;
+  #sidebar .release a:first-child {
+    min-height: 60px;
 
-        padding-left: 85px;
+    padding-left: 85px;
 
-        background-image: url('/static/package.png');
-        background-repeat: no-repeat;
-        background-position: 10px center;
-    }
+    background-image: url("/static/package.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
 </style>
 <script type="text/javascript">
-    function addDownloadCounter(package, response) {
-        $(function() {
-            if ($("#" + package + " a:first-child").length > 0) {
-                var count = response.data.download_count;
-                if (typeof count == "number" && count % 1 == 0) {
-                    count = count.toString();
+  function addDownloadCounter(package, response) {
+    $(function () {
+      if ($("#" + package + " a:first-child").length > 0) {
+        var count = response.data.download_count;
+        if (typeof count == "number" && count % 1 == 0) {
+          count = count.toString();
 
-                    var expression = /(\d+)(\d{3})/;
-                    while (expression.test(count)) {
-                        count = count.replace(expression, "$1" + "," + "$2");
-                    }
+          var expression = /(\d+)(\d{3})/;
+          while (expression.test(count)) {
+            count = count.replace(expression, "$1" + "," + "$2");
+          }
 
-                    var span = '<span class="metadata">Downloaded ' + count + ' times</span>';
-                    $(span).appendTo("#" + package + " a:first-child");
-                }
-            }
-        });
-    }
+          var span =
+            '<span class="metadata">Downloaded ' + count + " times</span>";
+          $(span).appendTo("#" + package + " a:first-child");
+        }
+      }
+    });
+  }
 
-    function osxfuseDownloadCounter(response) {
-        addDownloadCounter("osxfuse", response);
-    }
+  function osxfuseDownloadCounter(response) {
+    addDownloadCounter("osxfuse", response);
+  }
 
-    function sshfsDownloadCounter(response) {
-        addDownloadCounter("sshfs", response);
-    }
+  function sshfsDownloadCounter(response) {
+    addDownloadCounter("sshfs", response);
+  }
 
-    function osxfuseDeveloperDownloadCounter(response) {
-        addDownloadCounter("osxfuse-developer", response);
-    }
+  function osxfuseDeveloperDownloadCounter(response) {
+    addDownloadCounter("osxfuse-developer", response);
+  }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse.gh_asset_id }}?callback=osxfuseDownloadCounter"></script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/releases/assets/{{ page.sshfs.gh_asset_id }}?callback=sshfsDownloadCounter"></script>
+<script
+  type="text/javascript"
+  src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse.gh_asset_id }}?callback=osxfuseDownloadCounter"
+></script>
+<script
+  type="text/javascript"
+  src="https://api.github.com/repos/osxfuse/sshfs/releases/assets/{{ page.sshfs.gh_asset_id }}?callback=sshfsDownloadCounter"
+></script>
 {% if page.osxfuse-developer %}
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse-developer.gh_asset_id }}?callback=osxfuseDeveloperDownloadCounter"></script>
+<script
+  type="text/javascript"
+  src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse-developer.gh_asset_id }}?callback=osxfuseDeveloperDownloadCounter"
+></script>
 {% endif %}
-<div>
-    {{ content }}
-</div>
+<div>{{ content }}</div>
 <div id="sidebar">
-    <h2>Stable Releases</h2>
-    <ul class="bloblist">
-        <li class="release" id="osxfuse">
-            <a href="{{ page.osxfuse.url }}">
-                macFUSE {{ page.osxfuse.version }}
-                {% for line in page.osxfuse.description %}
-                <span class="metadata">{{ line }}</span>
-                {% endfor %}
-                <span class="metadata">Released on {{ page.osxfuse.date }}</span>
-            </a>
-        </li>
-        <li class="release" id="sshfs">
-            <a href="{{ page.sshfs.url }}">
-                SSHFS {{ page.sshfs.version }}
-                {% for line in page.sshfs.description %}
-                <span class="metadata">{{ line }}</span>
-                {% endfor %}
-                <span class="metadata">Released on {{ page.sshfs.date }}</span>
-            </a>
-        </li>
-    </ul>
-    {% if page.osxfuse-developer %}
-    <h2>Developer Previews</h2>
-    <ul class="bloblist">
-        <li class="release" id="osxfuse-developer">
-            <a href="{{ page.osxfuse-developer.url }}">
-                macFUSE {{ page.osxfuse-developer.version }}
-                {% for line in page.osxfuse-developer.description %}
-                <span class="metadata">{{ line }}</span>
-                {% endfor %}
-                <span class="metadata">Released on {{ page.osxfuse-developer.date }}</span>
-            </a>
-        </li>
-    </ul>
-    {% endif %}
-    <h2>
-        Recent Posts
-        <a class="archive" href="/archive.html">Archive</a></span>
-    </h2>
-    <ul class="bloblist">
-        {% for post in site.posts limit: 8 %}
-        <li>
-            <a href="{{ post.url }}">
-                {{ post.title }}
-                <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
-            </a>
-        </li>
+  <h2>Stable Releases</h2>
+  <ul class="bloblist">
+    <li class="release" id="osxfuse">
+      <a href="{{ page.osxfuse.url }}">
+        macFUSE {{ page.osxfuse.version }} {% for line in
+        page.osxfuse.description %}
+        <span class="metadata">{{ line }}</span>
         {% endfor %}
-    </ul>
+        <span class="metadata">Released on {{ page.osxfuse.date }}</span>
+      </a>
+    </li>
+    <li class="release" id="sshfs">
+      <a href="{{ page.sshfs.url }}">
+        SSHFS {{ page.sshfs.version }} {% for line in page.sshfs.description %}
+        <span class="metadata">{{ line }}</span>
+        {% endfor %}
+        <span class="metadata">Released on {{ page.sshfs.date }}</span>
+      </a>
+    </li>
+  </ul>
+  {% if page.osxfuse-developer %}
+  <h2>Developer Previews</h2>
+  <ul class="bloblist">
+    <li class="release" id="osxfuse-developer">
+      <a href="{{ page.osxfuse-developer.url }}">
+        macFUSE {{ page.osxfuse-developer.version }} {% for line in
+        page.osxfuse-developer.description %}
+        <span class="metadata">{{ line }}</span>
+        {% endfor %}
+        <span class="metadata"
+          >Released on {{ page.osxfuse-developer.date }}</span
+        >
+      </a>
+    </li>
+  </ul>
+  {% endif %}
+  <h2>
+    Recent Posts
+    <a class="archive" href="/archive.html">Archive</a>
+  </h2>
+  <ul class="bloblist">
+    {% for post in site.posts limit: 8 %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+        <span class="metadata">Posted on {{ post.date | date_to_string }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
