@@ -6,178 +6,178 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.9" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.10" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.11" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.11" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.12" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.12" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.13" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.13" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.14" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.14" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.15" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.15" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "10.16" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "10.16" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "11" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "11" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "13" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "13" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.2/macfuse-4.6.2.dmg</string>
+			<string>https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.7.1/macfuse-4.7.1.dmg</string>
 			<key>Hash</key>
-			<string>U8dVNunkC9heEdjR4sEeFuG2IWM=</string>
+			<string>KX6MM6oNS7j2PdFKEfey+zeXHnM=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "14" AND Ticket.version != "4.6.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "14" AND Ticket.version != "4.7.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>6202160</string>
+			<string>6208350</string>
 			<key>Version</key>
-			<string>4.6.2</string>
+			<string>4.7.1</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	RSXVnwWJhCZ0uFA1+bx44rsbHn25a2H6mrf0Sx0aCZtfSVPCa4JVnAXAZygHLgD7Lj2r
-	pt4tBDi2YuhHzs7pJTiWixEbphAluWiPvxMgbW7KfflFw+iaf6vLCFGy96Yplhc/PrZU
-	ASzAqSMWVIY8x3GyIgqGInOD/MZuzsXrp2Y=
+	VQeDqd5+VFk1fN8RKRaWdjEjBG0T4UnTZK+WsxK4Cna693kuphXJE6wQ66WggXHHLWWz
+	m2G/uVJ8RrsbQ568MG1wBZdCm4ImhOVGC4p2a8sRxl3ekCzSgyFn7dgihq+eiv/mGZ0b
+	uN1Z7hQw8xTTzi1yHVUdVOJh1f/MduBYlo8=
 	</data>
 </dict>
 </plist>
