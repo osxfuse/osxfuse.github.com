@@ -16,8 +16,8 @@ release:
 </ul>
 <h3>Fixes</h3>
 <ul>
-    <li>Fixed a bug in the Objective-C framework, that could cause a file system crash when creating a directory fails, i.e. when the file system delegate returns an error in <code>createDirectoryAtPath:attributes:error:</code>. Tracked as issue #96: <a href="https://github.com/osxfuse/osxfuse/issues/96">"Invalid input parameter for createDirectoryAtPath:attributes:error:"</a></li>
-    <li>Addressed issue #74: <a href="https://github.com/osxfuse/osxfuse/issues/74">"cannot copy file system bundle to destination."</a> by using <code>/bin/cp</code> instead of <code>cp</code> from <code>${PATH}</code></li>
+    <li>Fixed a bug in the Objective-C framework, that could cause a file system crash when creating a directory fails, i.e. when the file system delegate returns an error in <code>createDirectoryAtPath:attributes:error:</code>. Tracked as issue #96: <a href="https://github.com/macfuse/macfuse/issues/96">"Invalid input parameter for createDirectoryAtPath:attributes:error:"</a></li>
+    <li>Addressed issue #74: <a href="https://github.com/macfuse/macfuse/issues/74">"cannot copy file system bundle to destination."</a> by using <code>/bin/cp</code> instead of <code>cp</code> from <code>${PATH}</code></li>
     <li>When uninstalling, check whether the FUSE for OS X preference pane has actually been installed before trying to uninstall it.</li>
     <li>Replaced Package Maker app with <code>pkgbuild(1)</code>. The Package Maker app has been deprecated since Xcode 4.6 and has been removed from the Auxiliary Tools package for Xcode.</li>
     <li>Added missing <code>fuse.pc</code> symlink for build target homebrew. It is needed for compatibility with Linux FUSE file systems and points to <code>osxfuse.pc</code>.</li>

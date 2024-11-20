@@ -65,10 +65,10 @@ layout: base
         addDownloadCounter("osxfuse-developer", response);
     }
 </script>
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse.gh_asset_id }}?callback=osxfuseDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/macfuse/macfuse/releases/assets/{{ page.osxfuse.gh_asset_id }}?callback=osxfuseDownloadCounter"></script>
 <script type="text/javascript" src="https://api.github.com/repos/osxfuse/sshfs/releases/assets/{{ page.sshfs.gh_asset_id }}?callback=sshfsDownloadCounter"></script>
 {% if page.osxfuse-developer %}
-<script type="text/javascript" src="https://api.github.com/repos/osxfuse/osxfuse/releases/assets/{{ page.osxfuse-developer.gh_asset_id }}?callback=osxfuseDeveloperDownloadCounter"></script>
+<script type="text/javascript" src="https://api.github.com/repos/macfuse/macfuse/releases/assets/{{ page.osxfuse-developer.gh_asset_id }}?callback=osxfuseDeveloperDownloadCounter"></script>
 {% endif %}
 <div>
     {{ content }}

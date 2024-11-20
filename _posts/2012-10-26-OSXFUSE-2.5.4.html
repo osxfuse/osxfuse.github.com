@@ -19,7 +19,7 @@ release:
     <li>Fixed a race condition introduced in OSXFUSE 2.5.2, that can result in unmounting a FUSE volume taking up to several minutes in some cases. Reported by Daniel Iwan: <a href="https://groups.google.com/d/topic/osxfuse-group/k2CLAwzeDq8/discussion">"Unmounting issues in v2.5.2"</a></li>
     <li>Fixed a bug, that can cause FUSE file systems to crash when reclaiming a vnode after making a hard link to the corresponding file. Error message returned by FUSE server:
         <pre>Assertion failed: (node->nlookup >= nlookup)</pre>
-        Tracked as issue #55: <a href="https://github.com/osxfuse/osxfuse/issues/55">"OSXFUSE crashes/unmounts during rsync backup on encrypted directory (encfs)"</a>
+        Tracked as issue #55: <a href="https://github.com/macfuse/macfuse/issues/55">"OSXFUSE crashes/unmounts during rsync backup on encrypted directory (encfs)"</a>
     </li>
     <li>Fixed a bug, that prevents file nodes from being freed by the FUSE server when the corresponding vnodes are being reclaimed by OS X. This could result in higher than normal memory usage in case a great number of files is being created on a FUSE volume.</li>
     <li>Addressed an issue, that can trigger an "unknown option" error when using mount time option <code>volicon</code> in combination with option <code>modules</code></li>
