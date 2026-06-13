@@ -6,94 +6,108 @@
 	<array>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "12" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "13" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "13" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "14" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "14" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "15" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "15" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "16" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "16" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.0/macfuse-5.3.0.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
 			<key>Hash</key>
-			<string>NQRXkxxSvyUdyHzUlVd7pQYbKqg=</string>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "26" AND Ticket.version != "5.3.0"</string>
+			<string>SystemVersion.ProductVersion beginswith "26" AND Ticket.version != "5.3.1"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15676524</string>
+			<string>15701889</string>
 			<key>Version</key>
-			<string>5.3.0</string>
+			<string>5.3.1</string>
+		</dict>
+		<dict>
+			<key>Codebase</key>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.1/macfuse-5.3.1.dmg</string>
+			<key>Hash</key>
+			<string>D10wITtvdDInQ03nJcIQcfD/Kgw=</string>
+			<key>Predicate</key>
+			<string>SystemVersion.ProductVersion beginswith "27" AND Ticket.version != "5.3.1"</string>
+			<key>ProductID</key>
+			<string>com.github.osxfuse.OSXFUSE</string>
+			<key>Size</key>
+			<string>15701889</string>
+			<key>Version</key>
+			<string>5.3.1</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	p1jSDKj8LlT3WCw3mCr4JT7ybX6eA86F86yZU0pOE3ydaxEmCm380/iy4nAVj8UM8Alr
-	a2ECZw95cctpsLHi0bU7FUKr2XEiH75eG7xc9W5utaV3Ks6YyLPwrjmA1iJdFH6j4FIh
-	tEaePIF3sknnvzIEKn3TcX1vkgGNPRhYkwk=
+	sezM3UA+mJMFKoUZ+0T6h18fk6BvjWIbKp7SBZyaySyXevL+kYKeNCY2bbFb+a1U4XWM
+	MGKyEJXXKbHPb3axI8BA4eNL1vjrC7WQ03loW46xs5M10uH601fIYn6c6vxgChp+BTfT
+	TnbVqLp18RZ61lM42TTUSDaYE9Y6w8jG17Q=
 	</data>
 </dict>
 </plist>
