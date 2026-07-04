@@ -90,24 +90,24 @@
 		</dict>
 		<dict>
 			<key>Codebase</key>
-			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.2/macfuse-5.3.2.dmg</string>
+			<string>https://github.com/macfuse/macfuse/releases/download/macfuse-5.3.3/macfuse-5.3.3.dmg</string>
 			<key>Hash</key>
-			<string>TPIRUtkEBG+2Hy08T2avo1S2V1E=</string>
+			<string>7YBmCKXExBGWSfYmaEXDVUlwpi4=</string>
 			<key>Predicate</key>
-			<string>SystemVersion.ProductVersion beginswith "27" AND Ticket.version != "5.3.2"</string>
+			<string>SystemVersion.ProductVersion beginswith "27" AND Ticket.version != "5.3.3"</string>
 			<key>ProductID</key>
 			<string>com.github.osxfuse.OSXFUSE</string>
 			<key>Size</key>
-			<string>15762333</string>
+			<string>15802030</string>
 			<key>Version</key>
-			<string>5.3.2</string>
+			<string>5.3.3</string>
 		</dict>
 	</array>
 	<key>Signature</key>
 	<data>
-	iH9h9utqhB22w/tA0Fc6d67FjwA1AUBO5QPW6yPUrLaJPNu0yAj3rJkjRSL7+PVsCA67
-	xyBKdxVa8NWP1vaES6TioZIdGiluHHW9Afy1wZn3xusmQu0xRX3HKhq2QyRVgmDkLa/l
-	4Sgq5JnJ9mRSPFJLs5JhYEPR9s3NIzn4e64=
+	OH2RLFFn62UvphpufRwQVnRnqvIjUPJZE+5SwU1X+mT0J+tNsqkc3KB8hq7Xt7A+wjSM
+	yZKnlfFfFI0s8WG5DRvHMZpe+yCsWJic4/t4VdLZSJ5DUGwYDeeTel2WRbVCvViVmO0x
+	gPLLKq47cxjci1XvckwH26lbL5LvhKgECUQ=
 	</data>
 </dict>
 </plist>
